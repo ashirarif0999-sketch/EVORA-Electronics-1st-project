@@ -19,6 +19,7 @@
   <script src="js/dollar-font.js" defer></script>
   <script src="js/checkout.js"></script>
   <script src="js/app.js" defer></script>
+  <script src="js/search.js" defer></script>
   <link href="RESPONSIVENESS.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -41,6 +42,39 @@
       body {
             padding: 0px;
         }
+    }
+    
+    /* Search styles */
+    .navbar-search {
+      padding: 0 1rem;
+    }
+    
+    .search-form {
+      position: relative;
+    }
+    
+    .autocomplete-suggestions {
+      position: absolute;
+      background: white;
+      border: 1px solid #ced4da;
+      border-top: none;
+      max-height: 200px;
+      overflow-y: auto;
+      z-index: 1000;
+      width: 100%;
+      max-width: 300px;
+      top: 100%;
+      left: 0;
+    }
+    
+    .autocomplete-suggestion {
+      padding: 0.5rem;
+      cursor: pointer;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    
+    .autocomplete-suggestion:hover {
+      background-color: #f8f9fa;
     }
   </style>
 </head>
@@ -67,6 +101,13 @@
         <li><a href="product2.html">Product</a></li>
         <li><a href="compare.html">Compare</a></li>
         <li><a href="Contact.html">Contact</a></li>
+        <!-- Search bar in navbar -->
+        <li class="navbar-search">
+          <div class="search-form">
+            <input type="text" id="navbar-search-input" class="form-control" placeholder="Search products...">
+            <div id="navbar-autocomplete-suggestions" class="autocomplete-suggestions" style="display: none;"></div>
+          </div>
+        </li>
         <!-- Cart icon moved OUTSIDE the main navbar list -->
         <div class="cart-icon-container">
           <div class="cart-link">
