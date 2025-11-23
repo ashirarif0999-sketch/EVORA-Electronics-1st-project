@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Shop premium home appliances from trusted global brands at Evora Electronics. Find energy-efficient refrigerators, washers, air conditioners, microwaves and more with expert installation and support.">
+  <meta name="keywords" content="home appliances, refrigerators, washing machines, air conditioners, microwaves, dishwashers, energy efficient appliances, appliance store">
+  <meta name="author" content="Evora Electronics">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <title>Evora Electronics - Premium Home Appliances</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="universal.css" rel="stylesheet">
+  <link href="home.css" rel="stylesheet">
+  <script src="js/finisher-header.es5.min.js"></script>
+  <link rel="stylesheet" href="product.css">
+
+  <script src="js/cart.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/dollar-font.js" defer></script>
+  <script src="js/checkout.js"></script>
+  <script src="js/search-integration.js"></script>
+  <script src="js/app.js" defer></script>
+  <link href="RESPONSIVENESS.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Media query for max-width: 700px - Space for manual editing */
+    @media (max-width: 700px) {
+       .hero-images .hero-img {
+        height: 336PX;
+        POSITION: RELATIVE;
+        TOP: -13PX;
+      }
+    }
+
+    @media (max-width: 480px) {
+       .hero-images .hero-img {
+        height: 336PX;
+        POSITION: RELATIVE;
+        TOP: -30PX;
+      }
+      body {
+            padding: 0px;
+        }
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="whole-body-view" style="width:100dvh; height:100dvh; background-color: #040404;"></div>
+  <nav>
+    <div class="navbar-container">
+      <a href="HOME.html">
+        <div class="navbar-logo"><img src="assets/EVORA-LOGO.png" width="125px" alt="Evora Logo"></div>
+      </a>
+
+      <!-- Search Bar -->
+<div class="search-container">
+  <form action="search-results.html" method="GET" id="searchForm">
+    <input type="search" class="search-input" id="searchInput" name="q" placeholder="Search..." aria-label="Search products">
+    <button type="submit" class="search-button" aria-label="Search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </form>
+</div>
+
+      <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="cart-icon-cont-0">
+          <div class="cart-link">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count" id="cart-count">0</span>
+          </div>
+        </div>
+      <!-- Main navigation menu -->
+      <ul class="navbar">
+        <li>
+          <a href="BRANDS.HTML">Brands</a>
+        </li>
+        <li><a href="product2.html">Product</a></li>
+        <li><a href="compare.html">Compare</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <!-- Cart icon moved OUTSIDE the main navbar list -->
+        <div class="cart-icon-container">
+          <div class="cart-link">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Cart Popup Overlay -->
+  <div class="cart-popup-overlay" id="cart-overlay"></div>
+
+  <!-- Cart Popup -->
+  <div class="cart-popup" id="cart-popup">
+    <div class="cart-header">
+      <h3><i class="fa-solid fa-cart-shopping me-2"></i> Your Shopping Cart <span id="cart-item-count">(0)</span></h3>
+      <button class="cart-close" id="cart-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="cart-items" id="cart-items-container">
+      <!-- Cart items will be populated here dynamically -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+          <span>Total:</span>
+          <span id="cart-total">$0.00</span>
+      </div>
+      <button class="checkout-btn" id="checkout-btn" disabled>
+          <span class="payment-icon"></span>Proceed to Checkout</button>
+      <button class="continue-btn" id="continue-btn"><i class="fa-solid fa-arrow-left me-2"></i>Continue Shopping</button>
+    </div>
+  </div>
+
+  <!-- Mobile Sidebar Menu - with cart link added -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-btn" id="closeBtn">&times;</button>
+  <ul style="padding-left: 0px;">
+    <li><a href="HOME.html">Home</a></li>
+    <li class="mobile-dropdown-item">
+      <div class="split-button">
+        <a href="BRANDS.HTML" class="split-button-link1">
+        <div class="split-button-left">
+          <i class="fa-solid fa-building"></i>
+          Brands
+        </div>
+        </a>
+
+        <div class="split-button-right" aria-expanded="false">
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+      <ul class="mobile-dropdown">
+        <li><a href="Haier-productpage.html">Haier</a></li>
+        <li><a href="samsung-productpage.html">Samsung</a></li>
+        <li><a href="LG-productpage.html">LG</a></li>
+        <li><a href="Whirlpool-productpage.html">Whirlpool</a></li>
+        <li><a href="BOSCH-productpage.html">Bosch</a></li>
+        <li><a href="Electrolux-productpage.html">Electrolux</a></li>
+        <li><a href="Panasonic-productpage.html">Panasonic</a></li>
+        <li><a href="Sony-productpage.html">Sony</a></li>
+        <li><a href="Apple-productpage.html">Apple</a></li>
+      </ul>
+    </li>
+    <li class="mobile-dropdown-item">
+      <div class="split-button">
+        <a href="product2.html" class="split-button-link2">
+        <div class="split-button-left">
+          <i class="fa-solid fa-blender"></i>
+          Appliances
+        </div>
+        </a>
+
+        <div class="split-button-right" aria-expanded="false">
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+      <ul class="mobile-dropdown">
+        <li><a href="product2.html">Washers & Dryers</a></li>
+        <li><a href="product2.html">Refrigerators</a></li>
+        <li><a href="product2.html">Microwaves</a></li>
+        <li><a href="product2.html">Air Conditioners</a></li>
+        <li><a href="product2.html">Dishwashers</a></li>
+        <li><a href="product2.html">Cooktops & Ovens</a></li>
+        <li><a href="product2.html">Vacuum Cleaners</a></li>
+      </ul>
+    </li>
+    <li><a href="product2.html">Product</a></li>
+    <li><a href="compare.html">Compare</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+    <!-- Added cart link to mobile menu -->
+    <li>
+      <a href="#" id="mobile-cart-link" class="mobile-cart-link">
+        <i class="fa-solid fa-cart-shopping me-2"></i>Shopping Cart
+        <span class="cart-count" id="mobile-cart-count">0</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+  <!-- HERO / BANNERS - Restructured -->
+  <section class="hero-images" aria-label="Evora featured banners">
+    <img src="assets/home-herosection-01.png" alt="Living room with Evora electronics" class="hero-img">
+  </section>
+
+  <!-- PRODUCTS INTRO -->
+  <section class="products-overview" id="products-overview" aria-labelledby="products-heading">
+    <div class="container">
+      <h2 id="products-heading">Explore Evora Home Appliances</h2>
+      <p class="lead">Durable, energy-efficient appliances designed for modern homes — refrigerators, washers, air conditioners, microwaves and more. Shop top-sellers, compare specs, and find the perfect fit for your needs.</p>
+
+      <!-- Categories -->
+      
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS GRID -->
+  <section class="featured-products" aria-labelledby="featured-heading">
+    <div class="container">
+      <div class="section-head">
+        <h3 id="featured-heading">Featured Products</h3>
+        <a href="product2.html" class="view-all">View all products <i class="fa-solid fa-angle-right"></i></a>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product Card 1 -->
+        <article class="product-card" data-category="refrigerators" itemscope itemtype="http://schema.org/Product">
+          <a href="#" class="product-media modal-trigger" data-target="fridge-modal">
+            <img src="assets/home-product-01.jpg" alt="Evora FrostShield Refrigerator" loading="lazy" style="width: 65%;">
+          </a>
+          <div class="product-body">
+            <h4 itemprop="name">Haier FrostShield 400L</h4>
+            <p class="short-desc">Smart inverter refrigerator with multi-airflow, humidity control and energy A++.</p>
+            <ul class="product-features">
+              <li>400 L capacity</li>
+              <li>Smart inverter compressor</li>
+              <li>Frost-free technology</li>
+            </ul>
+            <div class="product-meta">
+              <span class="price" itemprop="price">$749</span>
+              <div class="product-actions">
+                <a class="btn-outline modal-trigger" href="#" data-target="fridge-modal">Details</a>
+                <a class="btn-primary" href="compare.html">Compare</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product Card 2 -->
+        <article class="product-card" data-category="washers & dryers" itemscope itemtype="http://schema.org/Product">
+          <a href="#" class="product-media modal-trigger" data-target="washer-modal">
+            <img src="assets/home-product-02.jpg" alt="Evora QuickWash Washer" loading="lazy" style="width: 45%;">
+          </a>
+          <div class="product-body">
+            <h4 itemprop="name">Panasonic 7 Kg Front Load Inverter Washing Machine</h4>
+            <p class="short-desc">High-efficiency front-load washer with steam refresh and 15-minute quick cycles.</p>
+            <ul class="product-features">
+              <li>7 kg capacity</li>
+              <li>Steam refresh</li>
+              <li>Energy saving cycles</li>
+            </ul>
+            <div class="product-meta">
+              <span class="price" itemprop="price">$399</span>
+              <div class="product-actions">
+                <a class="btn-outline modal-trigger" href="#" data-target="washer-modal">Details</a>
+                <a class="btn-primary" href="compare.html">Compare</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product Card 3 -->
+        <article class="product-card" data-category="air conditioners" itemscope itemtype="http://schema.org/Product">
+          <a href="#" class="product-media modal-trigger" data-target="ac-modal">
+            <img src="assets/home-product-04.jpg" alt="Evora ClimatePro AC" loading="lazy" style="width: 40%; scale: 0.9;">
+          </a>
+          <div class="product-body">
+            <h4 itemprop="name">Evora ClimatePro 1.5T</h4>
+            <p class="short-desc">Fast-cool inverter AC with low-noise operation and smart scheduling.</p>
+            <ul class="product-features">
+              <li>1.5 Ton inverter</li>
+              <li>Low noise & sleep mode</li>
+              <li>Eco-friendly refrigerant</li>
+            </ul>
+            <div class="product-meta">
+              <span class="price" itemprop="price">$599</span>
+              <div class="product-actions">
+                <a class="btn-outline modal-trigger" href="#" data-target="ac-modal">Details</a>
+                <a class="btn-primary" href="compare.html">Compare</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product Card 4 -->
+        <article class="product-card" data-category="microwaves" itemscope itemtype="http://schema.org/Product">
+          <a href="#" class="product-media modal-trigger" data-target="microwave-modal">
+            <img src="assets/home-product-03.jpg" alt="Evora MicroChef Microwave" loading="lazy" style="width: 70%;">
+          </a>
+          <div class="product-body">
+            <h4 itemprop="name">Evora MicroChef 30L</h4>
+            <p class="short-desc">Multi-function convection microwave with auto-cook menus and easy-clean enamel.</p>
+            <ul class="product-features">
+              <li>30 L capacity</li>
+              <li>Convection & grill</li>
+              <li>Auto cook settings</li>
+            </ul>
+            <div class="product-meta">
+              <span class="price" itemprop="price">$229</span>
+              <div class="product-actions">
+                <a class="btn-outline modal-trigger" href="#" data-target="microwave-modal">Details</a>
+                <a class="btn-primary" href="compare.html">Compare</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT MODAL TEMPLATES -->
+  <div id="fridge-modal" class="product-modal-template" aria-hidden="true">
+    <div class="modal-header">
+      <h3>Haier FrostShield 400L</h3>
+      <div class="modal-price">$749</div>
+    </div>
+    <div class="modal-body">
+      <img src="assets/home-product-01.jpg" alt="Haier FrostShield 400L Refrigerator" class="modal-image">
+      <div class="modal-description">
+        <p>Smart inverter refrigerator with multi-airflow cooling system that maintains consistent temperature throughout the compartments. Features advanced humidity control drawers to keep fruits and vegetables fresh up to 2x longer, and energy-efficient A++ rating that saves on electricity bills.</p>
+      </div>
+      <div class="modal-features">
+        <h4>Key Features</h4>
+        <ul>
+          <li>400 L capacity with flexible storage options</li>
+          <li>Smart inverter compressor for quiet, efficient operation</li>
+          <li>Frost-free technology eliminates manual defrosting</li>
+          <li>Multi-airflow system maintains consistent temperature</li>
+          <li>Energy A++ rating - 35% more efficient than standard models</li>
+          <li>Digital touch controls with temperature display</li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <a href="compare.html?product=fridge" class="btn-outline">Compare</a>
+      <button class="btn btn-primary mt-2 add-to-cart-btn" data-product-id="1" data-product-name="Haier FrostShield 400L" data-product-price="749" data-product-image="./assets/home-product-01.jpg">
+        Add to Cart
+      </button>
+    </div>
+  </div>
+
+  <div id="washer-modal" class="product-modal-template" aria-hidden="true">
+    <div class="modal-header">
+      <h3>Panasonic 7 Kg Front Load Inverter Washing Machine</h3>
+      <div class="modal-price">$399</div>
+    </div>
+    <div class="modal-body">
+      <img src="assets/home-product-02.jpg" alt="QuickWash 8kg Front Load Washer" class="modal-image">
+      <div class="modal-description">
+        <p>High-efficiency front-load washer designed for modern households with busy lifestyles. Features steam refresh technology that removes odors and wrinkles without a full wash cycle, and our signature 15-minute quick cycle for when you need clean clothes in a hurry.</p>
+      </div>
+      <div class="modal-features">
+        <h4>Key Features</h4>
+        <ul>
+          <li>7 kg capacity perfect for medium to large households</li>
+          <li>Steam refresh technology for odor and wrinkle removal</li>
+          <li>Energy-saving cycles use 40% less water than conventional models</li>
+          <li>15-minute quick wash cycle for essential items</li>
+          <li>Smart imbalance detection prevents excessive vibration</li>
+          <li>Child lock and delay start options for convenience</li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <a href="compare.html?product=washer" class="btn-outline">Compare</a>
+      <button class="btn btn-primary mt-2 add-to-cart-btn" data-product-id="58" data-product-name="Panasonic 7 Kg Front Load Inverter Washing Machine" data-product-price="399" data-product-image="./assets/home-product-02.jpg">Add to Cart</button>
+    </div>
+  </div>
+
+  <div id="ac-modal" class="product-modal-template" aria-hidden="true">
+    <div class="modal-header">
+      <h3>Evora ClimatePro 1.5T</h3>
+      <div class="modal-price">$599</div>
+    </div>
+    <div class="modal-body">
+      <img src="assets/home-product-04.jpg" alt="Evora ClimatePro 1.5 Ton AC" class="modal-image">
+      <div class="modal-description">
+        <p>Fast-cooling inverter air conditioner designed for rapid temperature control with whisper-quiet operation. Features intelligent scheduling that learns your preferences and eco-friendly refrigerant that minimizes environmental impact while maximizing cooling efficiency.</p>
+      </div>
+      <div class="modal-features">
+        <h4>Key Features</h4>
+        <ul>
+          <li>1.5 Ton inverter compressor for energy-efficient cooling</li>
+          <li>Ultra-low noise operation (as low as 19dB) with sleep mode</li>
+          <li>Eco-friendly R32 refrigerant with zero ozone depletion</li>
+          <li>Smart scheduling with mobile app connectivity</li>
+          <li>Self-cleaning function prevents mold and bacteria buildup</li>
+          <li>4-way airflow for even cooling throughout the room</li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <a href="compare.html?product=ac" class="btn-outline">Compare</a>
+      <button class="btn btn-primary mt-2 add-to-cart-btn" data-product-id="59" data-product-name="Evora ClimatePro 1.5T" data-product-price="599" data-product-image="./assets/home-product-04.jpg">Add to Cart</button>
+    </div>
+  </div>
+
+  <div id="microwave-modal" class="product-modal-template" aria-hidden="true">
+    <div class="modal-header">
+      <h3>Evora MicroChef 30L</h3>
+      <div class="modal-price">$229</div>
+    </div>
+    <div class="modal-body">
+      <img src="assets/home-product-03.jpg" alt="Evora MicroChef 30L Microwave" class="modal-image">
+      <div class="modal-description">
+        <p>Versatile multi-function convection microwave that combines speed with precision cooking. Features 12 auto-cook menus for one-touch meal preparation and easy-clean enamel interior that resists stains and odors for lasting freshness.</p>
+      </div>
+      <div class="modal-features">
+        <h4>Key Features</h4>
+        <ul>
+          <li>30 L capacity with turntable for even heating</li>
+          <li>Convection & grill functions for baking and browning</li>
+          <li>12 auto-cook menus for popular dishes</li>
+          <li>Child safety lock and multiple power levels</li>
+          <li>Easy-clean enamel interior resists stains and odors</li>
+          <li>LED display with kitchen timer function</li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <a href="compare.html?product=microwave" class="btn-outline">Compare</a>
+      <button class="btn btn-primary mt-2 add-to-cart-btn" data-product-id="60" data-product-name="Evora MicroChef 30L" data-product-price="229" data-product-image="./assets/home-product-03.jpg">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content">
+      <span class="modal-close" id="modalClose" aria-label="Close modal">&times;</span>
+      <div class="modal-header">
+        <h3 id="modalProductName"></h3>
+        <div class="modal-price" id="modalPrice"></div>
+      </div>
+      <div class="modal-body">
+        <img id="modalProductImage" class="modal-image" src="" alt="">
+        <div class="modal-description" id="modalDescription"></div>
+        <div class="modal-features" id="modalFeatures">
+          <h4>Key Features</h4>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <a href="#" class="btn-outline" id="modalCompareBtn">Compare</a>
+        <button class="btn btn-primary mt-2 add-to-cart-btn" data-product-id="57" data-product-name="Haier FrostShield 400L" data-product-price="749" data-product-image="./assets/home-product-01.jpg">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOP BRANDS SECTION - NEW -->
+  <section class="top-brands" aria-labelledby="brands-heading">
+    <div class="container">
+      <h2 class="section-title" id="brands-heading">Our Trusted Brands</h2>
+      <p class="section-subtitle">We partner with the world's leading appliance manufacturers to bring you cutting-edge technology, reliability, and innovative design.</p>
+
+      <div class="brands-grid">
+        <a href="Haier-productpage.html"><div class="brand-card">
+          <img src="assets/download (2).png" alt="Haier" class="brand-logo">
+        </div>
+        </a>
+        
+        <a href="samsung-productpage.html"><div class="brand-card">
+          <img src="assets/download (1).png" alt="Samsung" class="brand-logo">
+        </div>
+        </a>
+
+        <a href="LG-productpage.html"><div class="brand-card">
+          <img src="assets/download.png" alt="LG" class="brand-logo">
+        </div>
+        </a>
+
+
+        <a href="Whirlpool-productpage.html"><div class="brand-card">
+          <img src="assets/download (4).png" alt="Whirlpool" class="brand-logo">
+        </div>
+      </a>
+
+
+        <a href="Whirlpool-productpage.html"><div class="brand-card">
+          <img src="assets/download (5).png" alt="Bosch" class="brand-logo">
+        </div>
+        </a>
+        <a href="Electrolux-productpage.html"><div class="brand-card">
+          <img src="assets/download (6).png" alt="Electrolux" class="brand-logo">
+        </div>
+      </a>
+
+      </div>
+
+      <a href="BRANDS.HTML" class="view-brands">Explore All Brands</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION - NEW -->
+  <section class="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <h2 class="section-title" id="testimonials-heading">Customer Experiences</h2>
+      <p class="section-subtitle">Don't just take our word for it. Hear what our satisfied customers have to say about their Evora experience.</p>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-content">"The refrigerator I purchased from Evora has transformed my kitchen. The smart features save energy, and the humidity control keeps my produce fresh twice as long. Their installation team was professional and efficient."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" class="author-avatar">
+            <div class="author-info">
+              <h4>Sarah Johnson</h4>
+              <p>Homeowner, Portland</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-content">"I was impressed with the energy efficiency of my new washing machine. It uses 40% less water than my old model, and the quiet operation is a game-changer for our apartment living. The 2-year warranty gives me great peace of mind."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" class="author-avatar">
+            <div class="author-info">
+              <h4>Michael Chen</h4>
+              <p>Apartment Owner, Chicago</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-content">"When my AC broke during a heatwave, Evora's emergency service team had a technician at my home within hours. They diagnosed the issue and had it fixed the same day. Their customer service is exceptional - they really care about their customers."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Rebecca Torres" class="author-avatar">
+            <div class="author-info">
+              <h4>Rebecca Torres</h4>
+              <p>Small Business Owner, Phoenix</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUSTAINABILITY SECTION - NEW -->
+  <section class="sustainability" aria-labelledby="sustainability-heading">
+    <div class="container">
+      <h2 class="section-title" id="sustainability-heading">Our Environmental Commitment</h2>
+      <p class="section-subtitle">At Evora, we believe in creating products that are not only efficient but also environmentally responsible. We're committed to reducing our carbon footprint and helping our customers do the same.</p>
+
+      <div class="sustainability-grid">
+        <div class="sustainability-item">
+          <div class="eco-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3>Energy Efficiency</h3>
+          <p>All our appliances meet or exceed ENERGY STAR® standards, helping you reduce electricity consumption and lower utility bills while protecting the environment.</p>
+        </div>
+
+        <div class="sustainability-item">
+          <div class="eco-icon">
+            <i class="fas fa-recycle"></i>
+          </div>
+          <h3>Responsible Materials</h3>
+          <p>We prioritize recyclable materials in our manufacturing processes and packaging. Our products are designed for longevity and easy disassembly at end-of-life.</p>
+        </div>
+
+        <div class="sustainability-item">
+          <div class="eco-icon">
+            <i class="fas fa-water"></i>
+          </div>
+          <h3>Water Conservation</h3>
+          <p>Our washing machines and dishwashers feature advanced water-saving technologies that use up to 50% less water than conventional models without compromising performance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION - NEW -->
+  <section class="services" aria-labelledby="services-heading">
+    <div class="container">
+      <h2 class="section-title" id="services-heading">Professional Services</h2>
+      <p class="section-subtitle">We provide comprehensive support throughout your ownership experience with expert installation, maintenance, and repair services by certified technicians.</p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Expert Installation</h3>
+          <p>Our certified technicians ensure your appliances are installed correctly and safely, maximizing efficiency and performance. We handle plumbing, electrical connections, and setup.</p>
+          <a href="misc/expert-maintenence.html" class="service-cta">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3>Maintenance Plans</h3>
+          <p>Extend the life of your appliances with our scheduled maintenance programs. Regular check-ups prevent costly repairs and maintain peak efficiency.</p>
+          <a href="misc/maintenence-plans.html" class="service-cta">View Plans <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Our dedicated support team is available around the clock to assist with troubleshooting, warranty claims, and emergency service requests.</p>
+          <a href="Contact.html" class="service-cta">Contact Support <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG SECTION - NEW -->
+  <section class="blog-section" aria-labelledby="blog-heading">
+    <div class="container">
+      <h2 class="section-title" id="blog-heading">Appliance Insights</h2>
+      <p class="section-subtitle">Stay informed with our latest articles on appliance care, energy-saving tips, and home improvement ideas from our experts.</p>
+
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="assets/home-tips-01.jpg" alt="Kitchen Organization Tips">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="fas fa-calendar-alt"></i> May 15, 2025</span>
+              <span><i class="fas fa-tag"></i> Tips & Guides</span>
+            </div>
+            <h3>10 Ways to Organize Your Refrigerator for Maximum Efficiency</h3>
+            <p>Learn how proper organization can extend food freshness, reduce energy consumption, and make your kitchen more functional.</p>
+            <a href="#" class="read-more">Coming Soon <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="assets/home-tips-02.jpg" alt="Washing Machine Care">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="fas fa-calendar-alt"></i> May 8, 2025</span>
+              <span><i class="fas fa-tag"></i> Maintenance</span>
+            </div>
+            <h3>How to Extend the Life of Your Washing Machine</h3>
+            <p>Simple maintenance routines that prevent common issues and keep your washer running efficiently for years to come.</p>
+            <a href="#" class="read-more">Coming Soon <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="assets/home-tips-03.jpg" alt="Energy Saving Tips">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="fas fa-calendar-alt"></i> May 1, 2025</span>
+              <span><i class="fas fa-tag"></i> Energy Efficiency</span>
+            </div>
+            <h3>5 Energy-Saving Tips for Your Home Appliances</h3>
+            <p>Practical strategies to reduce your electricity bills while maintaining comfort and convenience in your home.</p>
+            <a href="#" class="read-more">Coming Soon <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- WHY EVORA -->
+  <section class="why-evora" aria-labelledby="why-heading">
+    <div class="container">
+      <h3 id="why-heading">Why choose Evora?</h3>
+      <div class="why-grid">
+        <div class="why-item">
+          <i class="fa-solid fa-shield-halved fa-2x" aria-hidden="true"></i>
+          <h4>Reliable Warranty</h4>
+          <p>Industry-leading 2-year warranty with optional extended plans and nationwide service centres.</p>
+        </div>
+        <div class="why-item">
+          <i class="fa-solid fa-leaf fa-2x" aria-hidden="true"></i>
+          <h4>Energy Efficient</h4>
+          <p>Modern compressors and smart sensors reduce energy use — good for the planet and your bills.</p>
+        </div>
+        <div class="why-item">
+          <i class="fa-solid fa-tools fa-2x" aria-hidden="true"></i>
+          <h4>Local Support</h4>
+          <p>Authorized technicians and easy part replacement — we keep your appliances working longer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="header finisher-header" style="width: 100%;height: 405px;z-index: 100;position: relative;">
+    <section class="newsletter" aria-labelledby="newsletter-heading">
+      <div class="newsletter-container">
+        <h2 id="newsletter-heading">Stay Updated with Evora</h2>
+        <p>Subscribe to our newsletter for exclusive offers, product launches, and home appliance tips delivered straight to your inbox.</p>
+
+        <form class="newsletter-form" aria-label="Newsletter signup">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i>Subscribe</button>
+        </form>
+
+        <p class="privacy-note">We respect your privacy. Unsubscribe anytime. Read our <a href="privacy policy.html" style="color: #040404;text-decoration:underline">Privacy Policy</a>.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-inner">
+        <div>
+          <h3>Ready to upgrade your home?</h3>
+          <p>Browse curated packages & get free delivery on orders over $500.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="product2.html" class="btn-primary large">Shop Now</a>
+          <a href="Contact.html" class="btn-outline large">Get a Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- Toast Container -->
+    <div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-2"></div>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+    <!-- Brand Section -->
+    <div class="footer-section">
+    <div class="footer-logo"><a href="HOME.html"><img src="assets/EVORA-LOGO.png" alt="Evora Electronics Logo" class="footer-logo-img" width="125px"></a></div>
+    <p class="footer-tagline">Premium home appliances from trusted global brands. Serving customers since 2005.</p>
+    <div class="social-icons">
+    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook" style="color:rgb(0, 119, 255) !important"></i></a>
+    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" style="color:rgb(255, 0, 200) !important"></i></a>
+    <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-x-twitter" style="color:rgb(19, 0, 5) !important"></i></a>
+    <a href="#" aria-label="YouTube"><i class="fa-brands fa-square-youtube" style="color:rgb(255, 0, 85) !important"></i></a>
+    </div>
+    </div>
+    
+    <!-- Quick Links -->
+    <div class="footer-section">
+    <h4>Quick Links</h4>
+    <ul>
+    <li><a href="terms and services.html">Terms & Services</a></li>
+    <li><a href="privacy policy.html">Privacy Policy</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+    <li><a href="Refund and Exchange.html">Refund & Exchange</a></li>
+    <li><a href="About us .html">About Us</a></li>
+    </ul>
+    </div>
+    
+    <!-- Categories -->
+    <div class="footer-section">
+              <h4>Appliance Types</h4>
+              <ul>
+                <li><a href="product2.html">Washers & Dryers</a></li>
+                <li><a href="product2.html">Refrigerators</a></li>
+                <li><a href="product2.html">Microwaves</a></li>
+                <li><a href="product2.html">Air Conditioners</a></li>
+                <li><a href="product2.html">Dishwashers</a></li>
+              </ul>
+            </div>
+    
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <ul>
+        <li>
+      <a><address>
+        <p><a href="https://maps.app.goo.gl/UQPLaS7wZw73vXbH9">2260 118th Avenue North, Saint Petersburg, FL 33716, United States</a></p>
+          <i class="fa-solid fa-phone-volume" style="color:rgb(0, 89, 255)"></i> +1 (800) 123-4567<br>
+          <i class="fa-solid fa-envelope" style="color:rgb(0, 89, 255)"></i> <a href="mailto:info@evora.com">info@evora.com</a>
+    </address></a></li></ul>
+    </div>
+    </div>
+    
+    <div class="footer-bottom">
+    <p>&copy; 2025 Evora Electronics. All rights reserved.</p>
+    <div class="footer-legal">
+    <a href="privacy policy.html">Privacy Policy</a> •
+    <a href="terms and services.html">Terms of Service</a> •
+    </div>
+    </div>
+    </footer>
+
+  <script>
+    // Initialize FinisherHeader for background animation
+    new FinisherHeader({
+      "count": 12,
+      "size": {
+        "min": 1300,
+        "max": 1500,
+        "pulse": 1.6
+      },
+      "speed": {
+        "x": {
+          "min": 1.4,
+          "max": 5
+        },
+        "y": {
+          "min": 1.4,
+          "max": 5
+        }
+      },
+      "colors": {
+        "background": "#373333",
+        "particles": [
+          "#14a394",
+          "#10a2da"
+        ]
+      },
+      "blending": "none",
+      "opacity": {
+        "center": 0.6,
+        "edge": 0
+      },
+      "skew": 0,
+      "shapes": [
+        "c"
+      ]
+    });
+
+    // Scroll to top functionality
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+</html>

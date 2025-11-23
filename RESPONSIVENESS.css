@@ -39,6 +39,8 @@
 @media (max-width: 480px) {
   body {
     padding: 0px;
+    position: relative;
+    top: 50px;
   }
 
   nav {
@@ -47,7 +49,7 @@
 
   .navbar-container {
     padding: 8px;
-    border-radius: 20px 20px 0 0 !important;
+    BORDER-RADIUS: 0PX 0PX 20PX 20PX !important;
     border: 1px solid #8282824d;
   }
 
