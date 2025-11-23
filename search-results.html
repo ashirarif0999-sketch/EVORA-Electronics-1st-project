@@ -301,7 +301,7 @@
         
 
         /* Tablet: 481px to 768px */
-        @media (min-width: 481px) and (max-width: 768px) {
+        @media (min-width: 480px) and (max-width: 768px) {
             .mobile-filters-btn {
                 display: block;
             }
@@ -518,12 +518,23 @@
            mix-blend-mode: multiply;
            scale: 1.7;
        }
+        @media (max-width: 480px) {
+            .navbar-logo{
+                width: 57px !important; height: 5px !important; scale: 0.6 !important;
+            }
+            .search-container{
+                height: 44px !important;
+            }
+            .search-input{
+                padding: 12px !important;
+            }
+        }
     </style>
 </head>
 <body>
     <nav>
         <div class="navbar-container">
-          <a href="HOME.html">
+          <a href="index.html">
             <div class="navbar-logo"><img src="assets/EVORA-LOGO.png" width="125px" alt="Evora Logo"></div>
           </a>
 
@@ -592,7 +603,7 @@
   <div class="mobile-menu" id="mobileMenu">
     <button class="close-btn" id="closeBtn">&times;</button>
     <ul style="padding-left: 0px;">
-      <li><a href="HOME.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li class="mobile-dropdown-item">
         <div class="split-button">
           <a href="BRANDS.HTML" class="split-button-link1">
@@ -739,7 +750,7 @@
         <div class="footer-container">
             <!-- Brand Section -->
             <div class="footer-section">
-                <div class="footer-logo"><a href="HOME.html"><img src="assets/EVORA-LOGO.png" alt="Evora Electronics Logo" class="footer-logo-img" width="125px"></a></div>
+                <div class="footer-logo"><a href="index.html"><img src="assets/EVORA-LOGO.png" alt="Evora Electronics Logo" class="footer-logo-img" width="125px"></a></div>
                 <p class="footer-tagline">Premium home appliances from trusted global brands. Serving customers since 2005.</p>
                 <div class="social-icons">
                     <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook" style="color:rgb(0, 119, 255) !important"></i></a>
