@@ -289,26 +289,24 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderResults(results, query) {
     const resultsContainer = document.getElementById('results-container');
     const resultsInfo = document.getElementById('results-info');
-    
-    if (!resultsContainer || !resultsInfo) return;
-    
+    const noResultsDiv = document.getElementById('no-results');
+
+    if (!resultsContainer || !resultsInfo || !noResultsDiv) return;
+
     // Update results count
     resultsInfo.textContent = `${results.length} result${results.length !== 1 ? 's' : ''} for "${query}"`;
-    
+
     // Clear previous results
     resultsContainer.innerHTML = '';
-    
+
     if (results.length === 0) {
-      resultsContainer.innerHTML = `
-        <div class="no-results">
-          <i class="fa-solid fa-face-frown fa-3x"></i>
-          <h3>No products found</h3>
-          <p>Try different keywords or adjust your filters</p>
-        </div>
-      `;
+      noResultsDiv.style.display = 'block';
       return;
     }
-    
+
+    // Hide no-results div
+    noResultsDiv.style.display = 'none';
+
     // Create product cards
     results.forEach(product => {
       const productCard = createProductCard(product, query);
