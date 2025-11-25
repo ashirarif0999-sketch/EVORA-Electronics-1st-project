@@ -124,7 +124,7 @@ body {
 
 .brand-card {
   background: white;
-  border-radius: 18px;
+  border-radius: 26px;
   overflow: hidden;
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
@@ -156,7 +156,7 @@ body {
 }
 
 .brand-info {
-  padding: 25px;
+  padding: 5px;
   text-align: center;
 }
 

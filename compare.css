@@ -22,6 +22,9 @@ address {
   font-family: 'rubik', Arial, Helvetica, sans-serif;
   top: -55px;
 }
+.navbar{
+  display: flex;
+}
 body {
             background: linear-gradient(135deg, #f5f7fa 0%, #98ccfa 100%);
             min-height: 100vh;

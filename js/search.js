@@ -165,13 +165,22 @@ document.addEventListener('DOMContentLoaded', () => {
     if (clearFiltersBtn) {
       clearFiltersBtn.addEventListener('click', clearAllFilters);
     }
-    
+
     // Mobile filters toggle
     const mobileFiltersBtn = document.querySelector('.mobile-filters-btn');
     if (mobileFiltersBtn) {
       mobileFiltersBtn.addEventListener('click', () => {
         const filtersSection = document.getElementById('filters-section');
         filtersSection.classList.toggle('show');
+      });
+    }
+
+    // Filter close button
+    const filterCloseBtn = document.getElementById('filter-close');
+    if (filterCloseBtn) {
+      filterCloseBtn.addEventListener('click', () => {
+        const filtersSection = document.getElementById('filters-section');
+        filtersSection.classList.remove('show');
       });
     }
   }
@@ -306,7 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Create a single product card element
   function createProductCard(product, query) {
     const card = document.createElement('div');
-    card.className = 'product-card-wrapper';
+    card.className = 'product-card';
     
     // Highlight search terms in name and description
     const highlightedName = highlightSearchTerms(product.name, query);
@@ -321,7 +330,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <p class="product-desc">${highlightedDesc}</p>
             <div class="product-price">$${product.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</div>
             <button class="btn btn-primary w-100 add-to-cart-btn" data-product-id="${product.id}" data-product-name="${product.name}" data-product-price="${product.price}" data-product-image="${product.image}">
-              <i class="fa-solid fa-cart-plus me-2"></i>Add to Cart
+              <span class="cart-icon"></span>
+              Add to Cart
             </button>
           </div>
         </a>
