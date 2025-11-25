@@ -269,14 +269,14 @@
         }
 @media (max-width: 769px){
     .filters-section {
-        width: 150%;
+        width: 150% auto;
     }
 }
         /* Desktop Filters Visibility */
         @media (min-width: 769px) {
             .filters-section {
                 display: block !important;
-                width: 100%;
+                width: 100% auto;
 
             }
             .filter-close {
@@ -303,9 +303,11 @@
             .filters-section.show {
                 display: block;
         position: fixed;
-        width: 95%;
-        height: 70%;
-        top: 200px;
+        width: auto;
+        scale: 74%;
+        height: auto;
+        top: -4px;
+        left: -39px;
         z-index: 100;
         background: #ffffffb3;
         backdrop-filter: blur(8px);
@@ -405,15 +407,19 @@
             .filters-section.show {
                 display: block;
         position: fixed;
-        width: 70%;
-        top: 200px;
-        height: 70%;
+        width: auto;
+        top: 5px;
+        left: -41px;
+        scale: 76%;
+        height: auto;
         z-index: 100;
         background: #ffffffb3;
         backdrop-filter: blur(8px);
         border-radius: 30px;
+        border: 1px solid #cacaca;
     }
-            }
+    }
+            
 
             /* Two-column grid */
             #results-container {
