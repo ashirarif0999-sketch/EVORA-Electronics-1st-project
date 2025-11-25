@@ -44,8 +44,8 @@
 
         .filters-section {
             background: var(--light-bg);
-            padding: 1rem;
-            border-radius: var(--card-radius);
+            padding: 1.5rem;
+            border-radius: 30px;
             margin-bottom: 1rem;
             box-shadow: var(--shadow-sm);
         }
@@ -267,11 +267,17 @@
             margin-bottom: 0.75rem;
             color: #e9ecef;
         }
-
+@media (max-width: 769px){
+    .filters-section {
+        width: 150%;
+    }
+}
         /* Desktop Filters Visibility */
         @media (min-width: 769px) {
             .filters-section {
                 display: block !important;
+                width: 100%;
+
             }
             .filter-close {
                 display: block;
@@ -297,8 +303,9 @@
             .filters-section.show {
                 display: block;
         position: fixed;
-        width: 65%;
+        width: 95%;
         height: 70%;
+        top: 200px;
         z-index: 100;
         background: #ffffffb3;
         backdrop-filter: blur(8px);
@@ -398,12 +405,14 @@
             .filters-section.show {
                 display: block;
         position: fixed;
-        width: 65%;
+        width: 70%;
+        top: 200px;
         height: 70%;
         z-index: 100;
         background: #ffffffb3;
         backdrop-filter: blur(8px);
         border-radius: 30px;
+    }
             }
 
             /* Two-column grid */
@@ -437,7 +446,7 @@
                 padding: 0.35rem;
                 font-size: 0.75rem;
             }
-        }
+        
 
         /* Social Icons - Externalized from inline styles */
         .social-facebook { color: rgb(0, 119, 255) !important; }
