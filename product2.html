@@ -17,7 +17,147 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <style>
- 
+
+/* --- Animated Search Bar Styles --- */
+/* Define the Angle Property for smooth rotation */
+@property --angle {
+syntax: '<angle>';
+initial-value: 0deg;
+inherits: false;
+}
+
+/* The Animated RGB Border & Glow */
+.search-container::before,
+.search-container::after {
+content: '';
+position: absolute;
+/* Negative inset controls border thickness */
+inset: -4px;
+border-radius: 50px;
+z-index: -1;
+
+/* YOUR SPECIFIC COLORS */
+background: conic-gradient(
+from var(--angle),
+#ff2000,
+#0099ff,
+#00c11b,
+#ffb600,
+#ff2000
+);
+
+/* Start Hidden */
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+
+/* Special Blur for the Shadow (::after) */
+.search-container::after {
+filter: blur(25px);
+z-index: -2;
+}
+
+/* Animation Triggers (Hover AND Click/Focus) */
+/* When Hovering OR When Input is Focused (Clicked) */
+.search-container:hover::before,
+.search-container:hover::after,
+.search-container:focus-within::before,
+.search-container:focus-within::after {
+opacity: 1;
+animation: spin-clockwise 10s linear infinite;
+}
+
+/* The Input Field */
+.search-input {
+width: 100%;
+height: 100%;
+border: none;
+outline: none;
+background: #ffffff; /* White Input */
+border-radius: 50px;
+padding:0 73px 0 15px; /* Padding for text and icon */
+font-size: 18px;
+color: #000000;
+
+/* Default Static Border (Teal) */
+box-shadow: inset 0 0 0 2px #008080;
+transition: box-shadow 0.3s ease;
+}
+
+.search-input::placeholder {
+color: #008080; /* Teal Placeholder */
+opacity: 0.7;
+}
+
+/* Hide the static Teal border when the animated border is active */
+.search-container:hover .search-input,
+.search-container:focus-within .search-input {
+box-shadow: inset 0 0 0 0 transparent;
+}
+
+/* Search Icon */
+.search-button {
+position: absolute;
+right: 0px;
+width: 65px;
+height: 65px;
+pointer-events: auto;
+background: #23bfda;
+border: none;
+padding: 0;
+}
+
+.search-button i {
+fill: #008080; /* Teal Icon */
+transition: color 0.3s ease;
+}
+
+/* Make icon black when typing */
+.search-container:focus-within .search-button i {
+color: #000000;
+}
+
+/* The Animation Keyframes */
+@keyframes spin-clockwise {
+0% {
+--angle: 0deg;
+}
+100% {
+--angle: 360deg;
+}
+}
+
+/* Override existing search-container styles */
+.search-container {
+position: relative;
+width: 400px;
+height: 50px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1;
+padding: 0; /* Remove existing padding */
+}
+
+.search-container form {
+width: 100%;
+height: 100%;
+position: relative;
+}
+
+@media (max-width: 480px) {
+.navbar-logo{
+width: 57px !important; height: 5px !important; scale: 0.6 !important;
+}
+.search-container{
+height: 44px !important;
+}
+.search-input{
+padding: 0 73px 0 15px !important;
+}
+}
+
 </style>
 <body>
   <nav>

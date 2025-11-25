@@ -180,7 +180,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (filterCloseBtn) {
       filterCloseBtn.addEventListener('click', () => {
         const filtersSection = document.getElementById('filters-section');
-        filtersSection.classList.remove('show');
+        if (window.innerWidth >= 769) {
+          filtersSection.style.display = 'none';
+        } else {
+          filtersSection.classList.remove('show');
+        }
       });
     }
   }
