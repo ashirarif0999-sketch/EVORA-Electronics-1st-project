@@ -196,10 +196,14 @@ class CheckoutManager {
   }
 
   showStep(stepNumber) {
-    // Hide all steps
-    document.getElementById('shipping-form').style.display = 'none';
-    document.getElementById('payment-form').style.display = 'none';
-    document.getElementById('confirmation-page').style.display = 'none';
+    // Hide all steps with null checking
+    const shippingForm = document.getElementById('shipping-form');
+    const paymentForm = document.getElementById('payment-form');
+    const confirmationPage = document.getElementById('confirmation-page');
+    
+    if (shippingForm) shippingForm.style.display = 'none';
+    if (paymentForm) paymentForm.style.display = 'none';
+    if (confirmationPage) confirmationPage.style.display = 'none';
 
     // Update step indicators
     document.querySelectorAll('.step').forEach((step, index) => {
@@ -213,11 +217,11 @@ class CheckoutManager {
 
     // Show the selected step
     if (stepNumber === 1) {
-      document.getElementById('shipping-form').style.display = 'block';
+      if (shippingForm) shippingForm.style.display = 'block';
     } else if (stepNumber === 2) {
-      document.getElementById('payment-form').style.display = 'block';
+      if (paymentForm) paymentForm.style.display = 'block';
     } else if (stepNumber === 3) {
-      document.getElementById('confirmation-page').style.display = 'block';
+      if (confirmationPage) confirmationPage.style.display = 'block';
       this.generateOrderConfirmation();
     }
   }
@@ -390,12 +394,17 @@ function showNotification(message, type = 'info') {
   notification.innerHTML = `
     <div class="notification-content">
       <span class="notification-message">${message}</span>
-      <button class="notification-close" onclick="this.parentElement.parentElement.remove()">&times;</button>
+      <button class="notification-close" id="notificationCloseBtn">&times;</button>
     </div>
   `;
 
   // Add to page
   document.body.appendChild(notification);
+  
+  // Add event listener for close button
+  notification.querySelector('.notification-close').addEventListener('click', function() {
+    this.parentElement.parentElement.remove();
+  });
 
   // Auto-remove after 5 seconds
   setTimeout(() => {

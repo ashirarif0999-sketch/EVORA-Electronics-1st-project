@@ -623,7 +623,7 @@
 
 
     <!-- Scroll to Top Button -->
-    <button class="scroll-to-top" onclick="scrollToTop()" title="Go to top">↑</button>
+    <button class="scroll-to-top" id="scrollTopBtn" title="Go to top">↑</button>
 
     <script>
         // Scroll to top functionality
@@ -633,6 +633,14 @@
                 behavior: 'smooth'
             });
         }
+
+        // Add event listener for scroll to top button
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+            if (scrollTopBtn) {
+                scrollTopBtn.addEventListener('click', scrollToTop);
+            }
+        });
 
         // Add smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {

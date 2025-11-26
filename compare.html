@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="RESPONSIVENESS.css">
   <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <script src="js/finisher-header.es5.min.js"></script>
   <script src="js/cart.js" defer></script>
   <script src="js/navigation.js" defer></script>
   <script src="js/dollar-font.js" defer></script>
@@ -66,7 +65,7 @@
         align-items: center;
         background-color: rgba(211, 216, 222, 0.3);
         backdrop-filter: blur(20px);
-        padding: 15px 30px;
+        padding: 17px 22px 8px 22px;
         position: fixed;
         top: 0;
         left: 0;
@@ -78,7 +77,7 @@
 
     .navbar-logo {
         height: 40px;
-        width: auto;
+        width: max-content;
         margin-right: 15px;
         display: flex;
         align-items: center;
@@ -173,7 +172,7 @@
         cursor: pointer;
         font-size: 35px;
         margin-left: auto;
-        padding: 3px;
+        padding: 10px;
     }
 
     /* Cart Icon Styling */
@@ -189,6 +188,7 @@
         position: relative;
         color: #333;
         font-size: 20px;
+        padding:5px;
         text-decoration: none;
         transition: color 0.3s ease;
         display: flex;
@@ -662,6 +662,9 @@
         }
         .cart-count{
             display: none;
+        }
+        .cart-link{
+            padding: 19px 12px 21px 5px;
         }
         .cart-icon-container {
             display: flex;
@@ -1151,6 +1154,28 @@
 .toast-removing {
   animation: fadeOut 0.3s ease forwards;
 }
+@media (max-width: 480px){
+  .hamburger{
+    padding: 5px;
+  }
+  .cart-link{
+    padding: 0px;
+  }
+  .navbar-logo {
+            height: 40px;
+        width: max-content;
+        scale: 60%;
+        right: 30px;
+        POSITION: RELATIVE;
+        margin-right: -44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+        font-size: 12px;
+        min-width: 40px;
+    }
+}
 
 /* Mobile responsiveness */
 @media (max-width: 576px) {
@@ -1451,6 +1476,8 @@ body, html {
         <input type="text" id="productSearch" placeholder="Search for a product to add..." autocomplete="off">
         <div id="searchResults" class="search-results"></div>
       </div>
+
+      <button id="clearAllBtn" class="btn-clear-all">Clear All Products</button>
     </header>
 
     <div id="emptyState" class="text-center" style="display: none;">
@@ -1527,52 +1554,6 @@ body, html {
     </div>
     </div>
     </footer>
-
-  <script>
-    // Initialize FinisherHeader for background animation
-    new FinisherHeader({
-      "count": 12,
-      "size": {
-        "min": 1300,
-        "max": 1500,
-        "pulse": 1.6
-      },
-      "speed": {
-        "x": {
-          "min": 1.4,
-          "max": 5
-        },
-        "y": {
-          "min": 1.4,
-          "max": 5
-        }
-      },
-      "colors": {
-        "background": "#373333",
-        "particles": [
-          "#14a394",
-          "#10a2da"
-        ]
-      },
-      "blending": "none",
-      "opacity": {
-        "center": 0.6,
-        "edge": 0
-      },
-      "skew": 0,
-      "shapes": [
-        "c"
-      ]
-    });
-
-    // Scroll to top functionality
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    }
-  </script>
 </body>
 
 </html>

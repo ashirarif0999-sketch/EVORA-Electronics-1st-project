@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="compare-container-grid">
                 ${compareList.map(p => `
                     <div class="product-compact-card">
-                        <button class="remove-btn" onclick="removeFromCompare('${p.id}')">&times;</button>
+                        <button class="remove-btn" data-product-id="${p.id}">&times;</button>
                         <img src="${p.image}" alt="${p.name}">
                         <h3>${p.name}</h3>
                         <p class="brand">${p.brand}</p>
@@ -152,6 +152,14 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         compareContainer.innerHTML = html;
+        
+        // Add event listeners for remove buttons
+        document.querySelectorAll('.remove-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const productId = this.getAttribute('data-product-id');
+                removeFromCompare(productId);
+            });
+        });
     }
 
     // Render product specifications

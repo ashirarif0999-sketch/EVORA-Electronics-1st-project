@@ -972,7 +972,7 @@
 
 
 <!-- Scroll to Top Button -->
-    <button class="scroll-to-top" onclick="scrollToTop()" title="Go to top">↑</button>
+    <button class="scroll-to-top" id="scrollTopBtn" title="Go to top">↑</button>
         
 
 
@@ -1020,6 +1020,13 @@ new FinisherHeader({
             });
         }
 
+        // Add event listener for scroll to top button
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+            if (scrollTopBtn) {
+                scrollTopBtn.addEventListener('click', scrollToTop);
+            }
+        });
 </script>
 </body>
 </html>

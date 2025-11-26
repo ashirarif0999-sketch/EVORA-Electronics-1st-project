@@ -206,12 +206,17 @@ function showNotification(message, type = 'info') {
   notification.innerHTML = `
     <div class="notification-content">
       <span class="notification-message">${message}</span>
-      <button class="notification-close" onclick="this.parentElement.parentElement.remove()">&times;</button>
+      <button class="notification-close" id="navNotificationCloseBtn">&times;</button>
     </div>
   `;
 
   // Add to page
   document.body.appendChild(notification);
+  
+  // Add event listener for close button
+  notification.querySelector('.notification-close').addEventListener('click', function() {
+    this.parentElement.parentElement.remove();
+  });
 
   // Auto-remove after 5 seconds
   setTimeout(() => {
