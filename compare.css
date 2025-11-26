@@ -1,359 +1,258 @@
-        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Tourney:wdth,wght@92.4,900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-:root{
-  --accent: #009dff;
-  --accent-2: #27d3dd;
-  --bg: #f9fcff;
-  --card-bg: #fff;
-  --muted: #5c6b80;
-  --feature-bg: #f0faff;
-  --radius: 12px;
-  --nav-offset: 90px; /* adjust if your navbar height differs */
-}
-address {
-  font-style: normal;
-  line-height: 2;
-  font-size: 15px;
-  color: #444;
-  position: relative;
-  font-family: 'rubik', Arial, Helvetica, sans-serif;
-  top: -55px;
-}
-.navbar{
-  display: flex;
-}
-body {
-            background: linear-gradient(135deg, #f5f7fa 0%, #98ccfa 100%);
-            min-height: 100vh;
-            transition: all 0.3s ease-in-out;
-            padding-top: 20px; /* Space for fixed navbar */
-        }
+/* Compare Page Styles */
 
-* { box-sizing: border-box; font-family: 'Space Grotesk', sans-serif;}
-html,body { height: 100%; }
-body {
-  margin: 0;
-  font-family: "Poppins", system-ui, Arial, sans-serif;
-  background: linear-gradient(135deg,#f5f7fa 0%,#98ccfa 100%);
-  color: #122;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-}
-
-/* keep page content below fixed navbar */
-header, .comparison-table, footer { max-width: 1500px; margin-left: auto; margin-right: auto; padding-left: 16px; padding-right: 16px; }
-
-/* ---------- Header ---------- */
-header {
-  background: linear-gradient(90deg, var(--accent), #70c9ff);
-  color: #fff;
-  text-align: center;
-  padding: 45px 16px;
-  margin-top: var(--nav-offset);
-  border-radius: var(--radius);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-}
-header h1 { font-size: 40px; margin: 0 0 6px; font-size: 900;}
-header p { margin: 0; font-size: .98rem; opacity: .95; }
-
-/* ---------- Comparison wrapper ---------- */
-.comparison-table {
-  margin: 26px auto;
-  background: var(--card-bg);
-  border-radius: var(--radius);
-  box-shadow: 0 6px 22px rgba(3,18,38,0.06);
-  padding: 16px;
-  overflow: hidden; /* tablet/desktop show table fully, mobile uses card view */
-}
-
-/* horizontal scroll container for medium screens */
-.comparison-table .table-wrap {
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-/* ---------- Table defaults (desktop-first looks) ---------- */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
-  font-size: .95rem;
-  min-width: 780px; /* allow horizontal scrolling on small widths */
-}
-
-thead {
-  background: var(--accent);
-  color: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 5;
-}
-
-th, td {
-  border: 1px solid rgba(0,157,255,0.08);
-  padding: 12px 10px;
-  vertical-align: middle;
-}
-
-th {
-  font-weight: 700;
-  font-size: 1rem;
-  white-space: nowrap;
-}
-
-tbody tr:nth-child(even) { background: #f3faff; }
-tbody tr:hover { background: #e5f4ff; transition: background .22s ease; }
-
-/* feature (first) column styling */
-td.feature {
-  text-align: left;
-  font-weight: 700;
-  color: #0077cc;
-  background: var(--feature-bg);
-  white-space: nowrap;
-}
-
-/* make first column sticky on wide screens for readability */
-@supports (position: sticky) {
-  table th:first-child,
-  table td.feature {
-    position: sticky;
-    left: 0;
-    z-index: 6;
-    box-shadow: 4px 0 10px rgba(0,0,0,0.03);
-    background: linear-gradient(180deg, var(--feature-bg), #fff);
-  }
-  table thead th:first-child {
-    z-index: 7;
-    background: var(--accent);
-    color: #fff;
-  }
-}
-
-/* small visual polish */
-table img { max-width: 80px; height: auto; display:block; margin: 0 auto; }
-
-/* ---------- Buttons / small screens helpers ---------- */
-.hidden-mobile { display: inline-block; }
-.kv { font-size: .92rem; color: var(--muted); }
-
-/* ===========================
-   Responsive rules
-   =========================== */
-
-/* ---------- <= 1024px - medium screens ---------- */
-@media (max-width: 1024px) {
-  header h1 { font-size: 1.6rem; }
-  table { min-width: 720px; font-size: .92rem; }
-  th, td { padding: 10px 8px; }
-}
-
-/* ---------- <= 768px - tablet & small laptops ---------- */
-@media (max-width: 768px) {
-  header { margin-top: calc(var(--nav-offset) - 6px); }
-  .comparison-table { padding: 12px; }
-  table { min-width: 640px; font-size: .9rem; }
-  th, td { padding: 8px 6px; }
-  thead { font-size: .95rem; }
-
-  /* allow a comfortable horizontal scroll for tablet users */
-  .comparison-table .table-wrap { overflow-x: auto; padding-bottom: 8px; }
-  /* subtle shadow when table is scrollable */
-  .comparison-table .table-wrap::-webkit-scrollbar { height: 8px; }
-}
-
-/* ---------- Mobile: <= 480px - stacked card layout ---------- */
-@media (max-width: 480px) {
-  /* Hide thead, convert each row to card-like block */
-  .comparison-table { padding: 10px; }
-  .comparison-table .table-wrap { overflow: visible; } /* no horizontal scroll, use stacked cards */
-  table { width: 100%; border: none; min-width: 0; font-size: .95rem; }
-  thead { display: none; }
-  tbody { display: block; width: 100%; }
-  tbody tr {
-    display: block;
-    background: var(--card-bg);
-    border-radius: 12px;
-    margin-bottom: 12px;
-    box-shadow: 0 6px 18px rgba(2,24,53,0.06);
-    padding: 10px;
-    border: 1px solid rgba(0,0,0,0.03);
-  }
-
-  /* Each cell becomes a row inside the card */
-  tbody td {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 10px;
-    border: none;
-    border-bottom: 1px solid rgba(0,0,0,0.04);
-    line-height: 1.25;
-  }
-  tbody td:last-child { border-bottom: none; }
-
-  /* label generated from data-label attribute */
-  tbody td::before {
-    content: attr(data-label);
-    font-weight: 700;
-    color: #0f3c66;
-    margin-right: 8px;
-    flex: 0 0 45%;
-    text-align: left;
-    white-space: normal;
-    font-size: .92rem;
-  }
-  tbody td.feature::before {
-    color: var(--accent);
-    flex: 0 0 55%;
-  }
-
-  /* align value on right, allow wrapping */
-  tbody td > * { margin: 0; }
-  tbody td span.value { text-align: right; color: #12324a; font-weight: 600; }
-
-  /* make model, price or emphasized rows slightly larger */
-  tbody tr td.feature { font-size: .95rem; }
-  tbody tr td.value-strong { font-weight: 800; color: #0f2b46; }
-
-  /* footer spacing */
-  footer { margin-top: 8px; padding: 12px 16px; }
-}
-
-/* ---------- small utility helpers ---------- */
-.u-center { text-align:center; }
-.muted { color: var(--muted); font-size: .95rem; }
-
-/* focus outlines for accessibility */
-a:focus, button:focus, .mobile-menu .close-btn:focus { outline: 3px solid rgba(39,211,221,0.25); outline-offset: 2px; border-radius: 6px; }
-
-
-/* =========================================
-   NEW FLUID RAINBOW SEARCH BAR
-   ========================================= */
-
-/* 1. Animation Setup */
-@property --angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
-}
-
-@keyframes spin-clockwise {
-  0% { --angle: 0deg; }
-  100% { --angle: 360deg; }
-}
-
-/* 2. Container Layout */
 .search-container {
-  position: relative;
-  width: 90%;
-  /* Fluid clamp: never smaller than 280px, never wider than 600px */
-  max-width: 600px;
-  margin: 0 auto;
-  z-index: 1;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto 20px;
 }
 
-/* Desktop Constraint */
-@media (min-width: 992px) {
-  .search-container {
-    max-width: 450px;
-  }
+#productSearch {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
 }
 
-/* 3. Rainbow Border & Glow */
-.search-container::before,
-.search-container::after {
-  content: '';
-  position: absolute;
-  inset: -3px;
-  border-radius: 55px;
-  z-index: -1;
-  background: conic-gradient(
-      from var(--angle),
-      #ff2000, #0099ff, #00c11b, #ffb600, #ff2000
-  );
-  opacity: 0;
-  transition: opacity 0.3s ease;
+#productSearch:focus {
+    border-color: #007bff;
 }
 
-.search-container::after {
-  filter: blur(20px);
-  z-index: -2;
+#searchResults {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
 }
 
-/* Animation Triggers */
-.search-container:hover::before,
-.search-container:hover::after,
-.search-container:focus-within::before,
-.search-container:focus-within::after {
-  opacity: 1;
-  animation: spin-clockwise 4s linear infinite;
+.search-result-item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
-/* 4. Form & Layout */
-.search-container form {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background: #ffffff;
-  border-radius: 50px;
-  overflow: hidden;
-  box-shadow: 0 0 0 2px #23bfda;
-  transition: box-shadow 0.3s ease;
-  /* Fluid Height: Scales between 45px and 65px */
-  height: clamp(45px, 10vw, 65px);
+.search-result-item:hover {
+    background-color: #f8f9fa;
 }
 
-.search-container:hover form,
-.search-container:focus-within form {
-  box-shadow: 0 0 0 0 transparent;
+.search-result-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 12px;
 }
 
-/* 5. Input Field */
-.search-input {
-  flex-grow: 1;
-  min-width: 0; /* Allows shrinking on tiny screens */
-  height: 100%;
-  border: none;
-  outline: none;
-  background: transparent;
-  padding-left: clamp(15px, 3vw, 30px);
-  padding-right: 10px;
-  font-size: clamp(14px, 2.5vw, 18px);
-  color: #000;
+.search-result-item .name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
 }
 
-.search-input::placeholder {
-  color: #008080;
-  opacity: 0.7;
+.search-result-item .price {
+    color: #007bff;
+    font-weight: 500;
 }
 
-/* 6. Button */
-.search-button {
-  /* Fluid Width: Scales between 45px and 65px */
-  width: clamp(45px, 10vw, 65px);
-  height: 100%;
-  flex-shrink: 0; /* Prevents squashing */
-  background: #23bfda;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.search-result-item .description {
+    font-size: 12px;
+    color: #666;
+    margin: 2px 0;
 }
 
-.search-button i {
-  color: #008080;
-  transition: color 0.3s ease;
-  /* Fluid Icon Size */
-  font-size: clamp(14px, 4vw, 20px);
+.search-result-item .brand {
+    font-size: 11px;
+    color: #007bff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 2px 0;
 }
 
-.search-container:focus-within .search-button i {
-  color: #000000;
+.search-result-item .specs-preview {
+    font-size: 11px;
+    color: #888;
+    margin: 2px 0;
+}
+
+.compare-container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.product-compact-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+}
+
+.product-compact-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.product-compact-card .remove-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.product-compact-card .remove-btn:hover {
+    background: #c82333;
+}
+
+.product-compact-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.product-compact-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.product-compact-card .brand {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.product-compact-card .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 8px;
+}
+
+.product-compact-card .description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    min-height: 40px;
+}
+
+.product-compact-card .specs {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 15px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.product-compact-card .specs p {
+    margin: 5px 0;
+}
+
+.product-compact-card .specs p strong {
+    color: #333;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.product-compact-card .btn-primary {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.product-compact-card .btn-primary:hover {
+    background: #0056b3;
+}
+
+#emptyState {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#emptyState .empty-icon {
+    font-size: 64px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+#emptyState h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#emptyState p {
+    color: #666;
+}
+
+.confirmation-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #28a745;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 10000;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .compare-container-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-compact-card {
+        padding: 15px;
+    }
+
+    .product-compact-card img {
+        height: 150px;
+    }
 }

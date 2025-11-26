@@ -1,0 +1,1775 @@
+[
+  {
+    "id": "130",
+    "name": "Apple iPhone 15 Pro Max 256GB",
+    "description": "A17 Pro chip with 48MP camera system and titanium design",
+    "image": "./assets/apple-iphone-01.jpg",
+    "price": 1199.0,
+    "brand": "Apple",
+    "link": "./Apple-productpage.html",
+    "specs": {
+      "dimensions": "6.7 inches",
+      "weight": "221 g",
+      "display": "Super Retina XDR OLED, 1290 x 2796 pixels",
+      "processor": "A17 Pro chip",
+      "storage": "256GB",
+      "camera": "48MP Main, 12MP Ultra Wide, 12MP Telephoto",
+      "battery": "Up to 29 hours video playback",
+      "connectivity": "5G, Wi-Fi 6E, Bluetooth 5.3",
+      "features": [
+        "Action button",
+        "Ceramic Shield front",
+        "Water resistant to 6 meters",
+        "Face ID",
+        "USB-C connector"
+      ]
+    }
+  },
+  {
+    "id": "131",
+    "name": "Apple iPhone 15 128GB",
+    "description": "A16 Bionic chip with Dynamic Island and 48MP main camera",
+    "image": "./assets/apple-iphone-02.jpg",
+    "price": 799.0,
+    "brand": "Apple",
+    "link": "./Apple-productpage.html",
+    "specs": {
+      "dimensions": "6.1 inches",
+      "weight": "171 g",
+      "display": "Super Retina XDR OLED, 1179 x 2556 pixels",
+      "processor": "A16 Bionic chip",
+      "storage": "128GB",
+      "camera": "48MP Main, 12MP Ultra Wide",
+      "battery": "Up to 20 hours video playback",
+      "connectivity": "5G, Wi-Fi 6, Bluetooth 5.3",
+      "features": [
+        "Dynamic Island",
+        "Ceramic Shield front",
+        "Water resistant to 6 meters",
+        "Face ID",
+        "USB-C connector"
+      ]
+    }
+  },
+  {
+    "id": "132",
+    "name": "Apple iPad Pro 11- inch (M4) 256GB",
+    "description": "M4 chip with Liquid Retina display and Apple Pencil Pro compatibility",
+    "image": "./assets/apple-ipad-01.jpg",
+    "price": 999.0,
+    "brand": "Apple",
+    "link": "./Apple-productpage.html",
+    "specs": {
+      "dimensions": "11 inches",
+      "weight": "466 g",
+      "display": "Liquid Retina XDR, 2388 x 1668 pixels",
+      "processor": "M4 chip",
+      "storage": "256GB",
+      "camera": "12MP Wide, 10MP Ultra Wide",
+      "battery": "Up to 10 hours",
+      "connectivity": "Wi-Fi 6E, Bluetooth 5.3, 5G",
+      "features": [
+        "Apple Pencil Pro support",
+        "Magic Keyboard compatibility",
+        "Face ID",
+        "Four speaker audio",
+        "USB-C connector"
+      ]
+    }
+  },
+  {
+    "id": "133",
+    "name": "Apple iPad Air (M2) 256GB",
+    "description": "M2 chip with 10.9-inch Liquid Retina display and USB-C connectivity",
+    "image": "./assets/apple-ipad-02.jpg",
+    "price": 749.0,
+    "brand": "Apple",
+    "link": "./Apple-productpage.html",
+    "specs": {
+      "dimensions": "10.9 inches",
+      "weight": "462 g",
+      "display": "Liquid Retina, 2266 x 1488 pixels",
+      "processor": "M2 chip",
+      "storage": "256GB",
+      "camera": "12MP Wide, 12MP Ultra Wide",
+      "battery": "Up to 10 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.3",
+      "features": [
+        "Apple Pencil (2nd generation) support",
+        "Magic Keyboard compatibility",
+        "Touch ID",
+        "Stereo speakers",
+        "USB-C connector"
+      ]
+    }
+  },
+  {
+    "id": "134",
+    "name": "Apple MacBook Air 15-inch (M3) 512GB",
+    "description": "M3 chip with 18-hour battery life and 1080p FaceTime HD camera",
+    "image": "./assets/apple-macbook-01.jpg",
+    "price": 1499.0,
+    "brand": "Apple",
+    "link": "./Apple-productpage.html",
+    "specs": {
+      "dimensions": "13.4 x 9.35 x 0.44 inches",
+      "weight": "3.3 pounds",
+      "display": "15.3-inch Liquid Retina, 2880 x 1864 pixels",
+      "processor": "M3 chip",
+      "storage": "512GB SSD",
+      "memory": "8GB unified memory",
+      "camera": "1080p FaceTime HD camera",
+      "battery": "Up to 18 hours",
+      "connectivity": "Wi-Fi 6E, Bluetooth 5.3",
+      "features": [
+        "Backlit Magic Keyboard",
+        "Force Touch trackpad",
+        "Two Thunderbolt / USB 4 ports",
+        "MagSafe 3 charging port",
+        "Three-mic array with high signal-to-noise ratio"
+      ]
+    }
+  },
+  {
+    "id": "241",
+    "name": "Bosch 800 Series 24\\\" Dishwasher",
+    "description": "Premium dishwasher with CrystalDry technology, InfoLight, and ultra-quiet 38 dBA operation for perfect drying results.",
+    "image": "./assets/bosch-dishwasher-01.jpg",
+    "price": 1099.99,
+    "brand": "Bosch",
+    "link": "./BOSCH-productpage.html",
+    "specs": {
+      "dimensions": "24 x 24 x 34 inches",
+      "weight": "85 lbs",
+      "capacity": "16 place settings",
+      "wash_cycles": "10 cycles including Auto, Heavy, Delicate",
+      "drying_technology": "CrystalDry with Zeolite minerals",
+      "noise_level": "38 dBA",
+      "energy_efficiency": "ENERGY STAR certified",
+      "features": [
+        "Third rack for utensils",
+        "InfoLight floor projection",
+        "Home Connect app compatible",
+        "PrecisionWash system",
+        "Stainless steel interior"
+      ]
+    }
+  },
+  {
+    "id": "106",
+    "name": "BOSCH B36CL80SNS 36\\\" Refrigerator",
+    "description": "20.5 cu. ft. capacity with Home Connect smart features and dual freezer drawers",
+    "image": "./assets/bosch-refrigerator-01.jpg",
+    "price": 3899.0,
+    "brand": "Bosch",
+    "link": "./BOSCH-productpage.html",
+    "specs": {
+      "dimensions": "35.6 x 69.2 x 32.3 inches",
+      "weight": "330 lbs",
+      "capacity": "20.5 cu. ft.",
+      "configuration": "French door refrigerator with bottom freezer",
+      "cooling_system": "MultiAirFlow system",
+      "freezer": "Dual drawers with separate temperature controls",
+      "energy_efficiency": "ENERGY STAR certified",
+      "features": [
+        "Home Connect smart features",
+        "VitaFresh Pro drawers",
+        "LED lighting throughout",
+        "Glass shelves",
+        "Adjustable door bins"
+      ]
+    }
+  },
+  {
+    "id": "277",
+    "name": "Electrolux 4.5 cu. ft. Front Load Washer with LuxCare Wash System",
+    "description": "4.5 cu. ft. capacity with LuxCare Wash System, Perfect Steam technology, and 15-minute fast wash cycle for energy-efficient cleaning.",
+    "image": "./assets/electrolux-washer-01.jpg",
+    "price": 999.99,
+    "brand": "Electrolux",
+    "link": "./Electrolux-productpage.html",
+    "specs": {
+      "dimensions": "27 x 39 x 32 inches",
+      "weight": "185 lbs",
+      "capacity": "4.5 cu. ft.",
+      "wash_cycles": "12 cycles including Normal, Heavy, Delicate, Quick Wash",
+      "motor": "Direct drive inverter motor",
+      "steam_technology": "Perfect Steam for allergen removal",
+      "energy_efficiency": "ENERGY STAR certified",
+      "features": [
+        "LuxCare Wash System",
+        "15-minute fast wash",
+        "SmartDispense detergent dispenser",
+        "Stainless steel drum",
+        "Delay start up to 24 hours"
+      ]
+    }
+  },
+  {
+    "id": "215",
+    "name": "Haier 7 Kg 5 Star Fully-Automatic Top Load Washing Machine HWM70-148NE",
+    "description": "7kg capacity with pulsator wash technology, 10 wash programs, and child lock safety features for thorough cleaning.",
+    "image": "assets/haier-washing-machine-01.jpg",
+    "price": 499.99,
+    "brand": "Haier",
+    "link": "./Haier-productpage.html",
+    "specs": {
+      "dimensions": "21.7 x 21.7 x 37.4 inches",
+      "weight": "70.5 lbs",
+      "capacity": "7 kg",
+      "wash_cycles": "10 programs including Cotton, Delicate, Quick Wash",
+      "motor": "Pulsator wash technology",
+      "spin_speed": "720 RPM",
+      "energy_efficiency": "5-star rated",
+      "features": [
+        "Child lock safety",
+        "LED display panel",
+        "Delay start function",
+        "Overflow protection",
+        "Auto imbalance correction"
+      ]
+    }
+  },
+  {
+    "id": "33",
+    "name": "LG InstaView Door-in-Door Refrigerator with Craft Ice, 28 cu. ft.",
+    "description": "28 cu. ft. capacity with InstaView Door-in-Door, Craft Ice maker, and SmartThinQ technology.",
+    "image": "assets/lg-refrigerator-01.jpg",
+    "price": 3299.99,
+    "brand": "LG",
+    "link": "./LG-productpage.html",
+    "specs": {
+      "dimensions": "35.75 x 69.75 x 32.75 inches",
+      "weight": "375 lbs",
+      "capacity": "28 cu. ft.",
+      "configuration": "French door refrigerator with bottom freezer",
+      "cooling_system": "Linear Cooling technology",
+      "ice_maker": "Craft Ice spherical ice maker",
+      "energy_efficiency": "ENERGY STAR certified",
+      "features": [
+        "InstaView Door-in-Door",
+        "SmartThinQ app connectivity",
+        "Door Cooling+ technology",
+        "Glide N' Serve drawer",
+        "LED interior lighting"
+      ]
+    }
+  },
+  {
+    "id": "162",
+    "name": "LG 5.2 cu. ft. Front Load Washer with TurboWash 360",
+    "description": "5.2 cu. ft. capacity with TurboWash 360 technology, AI DD motor, and steam cleaning feature.",
+    "image": "assets/lg-washer-01.jpg",
+    "price": 1099.99,
+    "brand": "LG",
+    "link": "./LG-productpage.html",
+    "specs": {
+      "dimensions": "27 x 39 x 32 inches",
+      "weight": "198 lbs",
+      "capacity": "5.2 cu. ft.",
+      "wash_cycles": "14 cycles including Normal, Heavy, Delicate, Steam",
+      "motor": "AI Direct Drive inverter motor",
+      "steam_technology": "TrueSteam for allergen removal",
+      "energy_efficiency": "ENERGY STAR certified",
+      "features": [
+        "TurboWash 360 technology",
+        "SmartThinQ app connectivity",
+        "Load sensing technology",
+        "ColdWash technology",
+        "Stainless steel drum"
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "name": "Panasonic 537L Prime+ 4-Door Refrigerator NR-YW590YMMS",
+    "description": "Premium 4-door refrigerator with Prime Freeze and nanoe™ X technology for superior food preservation.",
+    "image": "./assets/panasonic-refrigerator-01.jpg",
+    "price": 1960.0,
+    "brand": "Panasonic",
+    "link": "./Panasonic-productpage.html",
+    "specs": {
+      "dimensions": "35.4 x 70.9 x 32.3 inches",
+      "weight": "242 lbs",
+      "capacity": "537 liters (18.9 cu. ft.)",
+      "configuration": "4-door refrigerator with multi-zone compartments",
+      "cooling_system": "Advanced inverter technology",
+      "freeze_performance": "Prime Freeze rapid freezing",
+      "air_purification": "nanoe™ X technology",
+      "features": [
+        "AgClean coating interior",
+        "Multi-flex shelf system",
+        "LED lighting throughout",
+        "Automatic ice maker",
+        "Holiday mode for energy saving"
+      ]
+    }
+  },
+  {
+    "id": "178",
+    "name": "LG OLED evo C3 55-inch 4K Smart TV",
+    "description": "55-inch OLED TV with α9 AI Processor, Dolby Vision IQ, and gaming features with 120Hz refresh rate.",
+    "image": "assets/lg-tv-oled.jpg",
+    "price": 1299.99,
+    "brand": "LG",
+    "link": "./LG-productpage.html",
+    "specs": {
+      "dimensions": "48.3 x 28.1 x 2.2 inches",
+      "weight": "44.5 lbs",
+      "display_size": "55 inches",
+      "resolution": "4K Ultra HD (3840 x 2160)",
+      "panel_type": "OLED evo",
+      "refresh_rate": "120Hz",
+      "hdr_support": "Dolby Vision IQ, HDR10, HLG",
+      "smart_platform": "webOS 23",
+      "features": [
+        "α9 AI Processor Gen6",
+        "Dolby Atmos audio",
+        "NVIDIA G-SYNC and AMD FreeSync Premium",
+        "Game Optimizer dashboard",
+        "Magic Remote with gesture control"
+      ]
+    }
+  },
+  {
+      "id": "190",
+      "name": "Panasonic 7 Kg 5 Star Fully-Automatic Top Load Washing Machine NA-F70LF4CRB",
+      "description": "7kg capacity with Active Foam Wash technology, 12 wash programs, and antibacterial features for thorough cleaning.",
+      "image": "assets/panasonic-washing-machine-01.jpg",
+      "price": 549.99,
+      "brand": "Panasonic",
+      "link": "./Panasonic-productpage.html",
+      "specs": {
+          "dimensions": "21.7 x 21.7 x 37.4 inches",
+          "weight": "72.8 lbs",
+          "capacity": "7 kg",
+          "wash_cycles": "12 programs including Daily, Baby Care, Drum Clean",
+          "foam_technology": "Active Foam Wash for deep cleaning",
+          "spin_speed": "780 RPM",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Ag+ Silver technology for antibacterial wash",
+              "Child lock safety",
+              "Digital inverter motor",
+              "Delay start function",
+              "Overflow protection"
+          ]
+      }
+  },
+  {
+      "id": "241",
+      "name": "Bosch 800 Series 24\" Dishwasher",
+      "description": "Premium dishwasher with CrystalDry technology, InfoLight, and ultra-quiet 38 dBA operation for perfect drying results.",
+      "image": "./assets/bosch-dishwasher-01.jpg",
+      "price": 1099.99,
+      "brand": "Bosch",
+      "link": "./BOSCH-productpage.html",
+      "specs": {
+          "dimensions": "24 x 24 x 34 inches",
+          "weight": "85 lbs",
+          "capacity": "16 place settings",
+          "wash_cycles": "10 cycles including Auto, Heavy, Delicate",
+          "drying_technology": "CrystalDry with Zeolite minerals",
+          "noise_level": "38 dBA",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Third rack for utensils",
+              "InfoLight floor projection",
+              "Home Connect app compatible",
+              "PrecisionWash system",
+              "Stainless steel interior"
+          ]
+      }
+  },
+  {
+      "id": "106",
+      "name": "BOSCH B36CL80SNS 36\" Refrigerator",
+      "description": "20.5 cu. ft. capacity with Home Connect smart features and dual freezer drawers",
+      "image": "./assets/bosch-refrigerator-01.jpg",
+      "price": 3899.0,
+      "brand": "Bosch",
+      "link": "./BOSCH-productpage.html",
+      "specs": {
+          "dimensions": "35.6 x 69.2 x 32.3 inches",
+          "weight": "330 lbs",
+          "capacity": "20.5 cu. ft.",
+          "configuration": "French door refrigerator with bottom freezer",
+          "cooling_system": "MultiAirFlow system",
+          "freezer": "Dual drawers with separate temperature controls",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Home Connect smart features",
+              "VitaFresh Pro drawers",
+              "LED lighting throughout",
+              "Glass shelves",
+              "Adjustable door bins"
+          ]
+      }
+  },
+  {
+      "id": "277",
+      "name": "Electrolux 4.5 cu. ft. Front Load Washer with LuxCare Wash System",
+      "description": "4.5 cu. ft. capacity with LuxCare Wash System, Perfect Steam technology, and 15-minute fast wash cycle for energy-efficient cleaning.",
+      "image": "./assets/electrolux-washer-01.jpg",
+      "price": 999.99,
+      "brand": "Electrolux",
+      "link": "./Electrolux-productpage.html",
+      "specs": {
+          "dimensions": "27 x 39 x 32 inches",
+          "weight": "185 lbs",
+          "capacity": "4.5 cu. ft.",
+          "wash_cycles": "12 cycles including Normal, Heavy, Delicate, Quick Wash",
+          "motor": "Direct drive inverter motor",
+          "steam_technology": "Perfect Steam for allergen removal",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "LuxCare Wash System",
+              "15-minute fast wash",
+              "SmartDispense detergent dispenser",
+              "Stainless steel drum",
+              "Delay start up to 24 hours"
+          ]
+      }
+  },
+  {
+      "id": "215",
+      "name": "Haier 7 Kg 5 Star Fully-Automatic Top Load Washing Machine HWM70-148NE",
+      "description": "7kg capacity with pulsator wash technology, 10 wash programs, and child lock safety features for thorough cleaning.",
+      "image": "assets/haier-washing-machine-01.jpg",
+      "price": 499.99,
+      "brand": "Haier",
+      "link": "./Haier-productpage.html",
+      "specs": {
+          "dimensions": "21.7 x 21.7 x 37.4 inches",
+          "weight": "70.5 lbs",
+          "capacity": "7 kg",
+          "wash_cycles": "10 programs including Cotton, Delicate, Quick Wash",
+          "motor": "Pulsator wash technology",
+          "spin_speed": "720 RPM",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Child lock safety",
+              "LED display panel",
+              "Delay start function",
+              "Overflow protection",
+              "Auto imbalance correction"
+          ]
+      }
+  },
+  {
+      "id": "33",
+      "name": "LG InstaView Door-in-Door Refrigerator with Craft Ice, 28 cu. ft.",
+      "description": "28 cu. ft. capacity with InstaView Door-in-Door, Craft Ice maker, and SmartThinQ technology.",
+      "image": "assets/lg-refrigerator-01.jpg",
+      "price": 3299.99,
+      "brand": "LG",
+      "link": "./LG-productpage.html",
+      "specs": {
+          "dimensions": "35.75 x 69.75 x 32.75 inches",
+          "weight": "375 lbs",
+          "capacity": "28 cu. ft.",
+          "configuration": "French door refrigerator with bottom freezer",
+          "cooling_system": "Linear Cooling technology",
+          "ice_maker": "Craft Ice spherical ice maker",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "InstaView Door-in-Door",
+              "SmartThinQ app connectivity",
+              "Door Cooling+ technology",
+              "Glide N' Serve drawer",
+              "LED interior lighting"
+          ]
+      }
+  },
+  {
+      "id": "162",
+      "name": "LG 5.2 cu. ft. Front Load Washer with TurboWash 360",
+      "description": "5.2 cu. ft. capacity with TurboWash 360 technology, AI DD motor, and steam cleaning feature.",
+      "image": "assets/lg-washer-01.jpg",
+      "price": 1099.99,
+      "brand": "LG",
+      "link": "./LG-productpage.html",
+      "specs": {
+          "dimensions": "27 x 39 x 32 inches",
+          "weight": "198 lbs",
+          "capacity": "5.2 cu. ft.",
+          "wash_cycles": "14 cycles including Normal, Heavy, Delicate, Steam",
+          "motor": "AI Direct Drive inverter motor",
+          "steam_technology": "TrueSteam for allergen removal",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "TurboWash 360 technology",
+              "SmartThinQ app connectivity",
+              "Load sensing technology",
+              "ColdWash technology",
+              "Stainless steel drum"
+          ]
+      }
+  },
+  {
+      "id": "178",
+      "name": "LG OLED evo C3 55-inch 4K Smart TV",
+      "description": "55-inch OLED TV with α9 AI Processor, Dolby Vision IQ, and gaming features with 120Hz refresh rate.",
+      "image": "assets/lg-tv-oled.jpg",
+      "price": 1299.99,
+      "brand": "LG",
+      "link": "./LG-productpage.html",
+      "specs": {
+          "dimensions": "48.3 x 28.1 x 2.2 inches",
+          "weight": "44.5 lbs",
+          "display_size": "55 inches",
+          "resolution": "4K Ultra HD (3840 x 2160)",
+          "panel_type": "OLED evo",
+          "refresh_rate": "120Hz",
+          "hdr_support": "Dolby Vision IQ, HDR10, HLG",
+          "smart_platform": "webOS 23",
+          "features": [
+              "α9 AI Processor Gen6",
+              "Dolby Atmos audio",
+              "NVIDIA G-SYNC and AMD FreeSync Premium",
+              "Game Optimizer dashboard",
+              "Magic Remote with gesture control"
+          ]
+      }
+  },
+  {
+      "id": "146",
+      "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+      "description": "Industry-leading noise cancellation with 30-hour battery life and premium sound",
+      "image": "./assets/sony-headphones-01.jpg",
+      "price": 399.99,
+      "brand": "Sony",
+      "link": "./Sony-productpage.html",
+      "specs": {
+          "dimensions": "7.1 x 6.7 x 1.8 inches",
+          "weight": "8.8 oz",
+          "driver_size": "30mm",
+          "frequency_response": "4Hz-40kHz",
+          "battery_life": "Up to 30 hours",
+          "charging": "USB-C, 3 hours for full charge",
+          "connectivity": "Bluetooth 5.2, NFC, 3.5mm jack",
+          "features": [
+              "Industry-leading noise cancellation",
+              "Crystal clear hands-free calling",
+              "Multipoint connection",
+              "Touch sensor controls",
+              "Voice assistant support"
+          ]
+      }
+  },
+  {
+      "id": "153",
+      "name": "Sony PlayStation 5 Digital Edition",
+      "description": "Next-gen gaming with ultra-high speed SSD and Tempest 3D AudioTech",
+      "image": "./assets/sony-gaming-01.jpg",
+      "price": 685.99,
+      "brand": "Sony",
+      "link": "./Sony-productpage.html",
+      "specs": {
+          "dimensions": "15.4 x 10.2 x 4.1 inches",
+          "weight": "7.9 lbs",
+          "processor": "AMD Zen 2-based CPU with 8 cores at 3.5GHz",
+          "graphics": "AMD RDNA 2-based GPU with 10.28 TFLOPs",
+          "memory": "16GB GDDR6/256-bit",
+          "storage": "825GB custom SSD",
+          "optical_drive": "Ultra HD Blu-ray (Digital Edition lacks disc drive)",
+          "connectivity": "Wi-Fi 6, Bluetooth 5.1, USB, HDMI, Ethernet",
+          "features": [
+              "Ray tracing",
+              "4K gaming at up to 120fps",
+              "3D AudioTech",
+              "DualSense wireless controller",
+              "Backward compatibility with PS4"
+          ]
+      }
+  },
+  {
+      "id": "94",
+      "name": "Whirlpool WRF535SMHZ 36\" Refrigerator",
+      "description": "25.2 cu. ft. capacity with FreshFlow™ Produce Preserver and humidity-controlled crispers",
+      "image": "assets/whirlpool-refrigerator-01.jpg",
+      "price": 2199.0,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "35.6 x 69.9 x 32.6 inches",
+          "weight": "275 lbs",
+          "capacity": "25.2 cu. ft.",
+          "configuration": "French door refrigerator with bottom freezer",
+          "cooling_system": "FreshFlow™ air filter",
+          "ice_maker": "Exterior ice and water dispenser",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "FreshFlow™ Produce Preserver",
+              "Humidity-controlled crispers",
+              "Adjustable gallon door bins",
+              "LED interior lighting",
+              "Adaptive defrost"
+          ]
+      }
+  },
+  {
+      "id": "102",
+      "name": "Whirlpool WTW8127LW 5.3 cu. ft. Top Load Washer",
+      "description": "Extra-large capacity with built-in water faucet and deep water wash option",
+      "image": "assets/whirlpool-laundry-01.jpg",
+      "price": 1099.0,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "27.9 x 27.9 x 42 inches",
+          "weight": "150 lbs",
+          "capacity": "5.3 cu. ft.",
+          "wash_cycles": "36 cycles including Deep Water Wash, Quick Wash",
+          "motor": "Direct drive motor",
+          "spin_speed": "Up to 850 RPM",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Built-in water faucet",
+              "Deep Water Wash option",
+              "Smooth Wave stainless steel wash basket",
+              "Automatic water levels",
+              "Delay start up to 12 hours"
+          ]
+      }
+  },
+  {
+      "id": "327",
+      "name": "Whirlpool 1.5 Ton 5 Star Inverter Split AC with 6th Sense Technology",
+      "description": "1.5 Ton 5-star rated inverter split AC with 6th Sense technology that adapts to room conditions, turbo cooling mode, and energy-efficient operation for home comfort.",
+      "image": "assets/whirlpool-ac-split-01.jpg",
+      "price": 749.99,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "37 x 10.5 x 23 inches (outdoor unit)",
+          "weight": "110 lbs (total)",
+          "capacity": "1.5 Ton (18,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "5100W",
+          "power_consumption": "0.9W (standby)",
+          "air_flow": "550 CFM",
+          "noise_level": "Indoor: 32-48 dB, Outdoor: 58 dB",
+          "features": [
+              "6th Sense technology",
+              "Turbo cooling mode",
+              "Self-cleaning function",
+              "Copper condenser",
+              "Sleep mode"
+          ]
+      }
+  },
+  {
+      "id": "67",
+      "name": "Samsung RF28T5001SR 28 cu. ft. French Door Refrigerator",
+      "description": "28.2 cu. ft. capacity with adjustable tempered glass shelves, internal ice maker, and Sabbath mode.",
+      "image": "./assets/samsung-refrigerator-05.jpg",
+      "price": 1400.0,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "35.8 x 70 x 32.8 inches",
+          "weight": "300 lbs",
+          "capacity": "28.2 cu. ft.",
+          "configuration": "French door refrigerator with bottom freezer",
+          "cooling_system": "All-Around Cooling",
+          "ice_maker": "Internal ice maker",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Adjustable tempered glass shelves",
+              "2 humidity-controlled crispers",
+              "Gallon door storage",
+              "LED lighting",
+              "Sabbath mode"
+          ]
+      }
+  },
+  {
+      "id": "68",
+      "name": "Samsung WW9800T 9kg AI Washing Machine",
+      "description": "9kg capacity with AI Control, QuickDrive™ technology reducing wash time by up to 50%, and energy usage by 20%.",
+      "image": "./assets/samsung-washing-machine-02.jpg",
+      "price": 999.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "27.6 x 29.9 x 41.3 inches",
+          "weight": "187 lbs",
+          "capacity": "9 kg",
+          "wash_cycles": "21 cycles including Quick Wash, Steam Sanitize",
+          "motor": "Digital Inverter Motor",
+          "spin_speed": "Up to 1400 RPM",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "AI Control technology",
+              "QuickDrive™ technology",
+              "EcoBubble™ technology",
+              "Steam Sanitize cycle",
+              "SmartThings app connectivity"
+          ]
+      }
+  },
+  {
+      "id": "69",
+      "name": "Samsung DV90T8440 9kg Heat Pump Smart Dryer",
+      "description": "9kg heat pump dryer with 9-star energy rating, AI Personalised Dry, and 35-mins Quick Dry cycle.",
+      "image": "./assets/samsung-dryer-01.jpg",
+      "price": 1299.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "27 x 31.5 x 42.4 inches",
+          "weight": "130 lbs",
+          "capacity": "9 kg",
+          "drying_cycles": "14 cycles including Quick Dry, Steam Sanitize",
+          "energy_rating": "9-star rated",
+          "power_consumption": "Very low energy consumption",
+          "drum_material": "Stainless steel",
+          "features": [
+              "Heat pump technology",
+              "AI Personalised Dry",
+              "35-minute Quick Dry cycle",
+              "Steam Sanitize cycle",
+              "SmartThings app connectivity"
+          ]
+      }
+  },
+  {
+      "id": "70",
+      "name": "Samsung DW80R9950UG 24 Inch Built-in Smart Dishwasher",
+      "description": "15 place settings with AquaBlast™ jets, Zone Booster™, and ultra-quiet 39 dBA operation.",
+      "image": "./assets/samsung-dishwasher-01.jpg",
+      "price": 1199.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "23.8 x 24.6 x 33.8 inches",
+          "weight": "95 lbs",
+          "capacity": "15 place settings",
+          "wash_cycles": "8 cycles including Normal, Heavy, Delicate",
+          "noise_level": "39 dBA",
+          "energy_efficiency": "ENERGY STAR certified",
+          "water_usage": "3.1 gallons per cycle",
+          "features": [
+              "AquaBlast™ technology",
+              "Zone Booster™",
+              "AutoRelease™ door",
+              "SmartThings app connectivity",
+              "Stainless steel interior"
+          ]
+      }
+  },
+  {
+      "id": "72",
+      "name": "Samsung NX58M6630SS 30\" Gas Range",
+      "description": "5.8 cu. ft. true convection oven with blue LED illuminated knobs and powerful 5-burner cooktop.",
+      "image": "./assets/samsung-range-01.jpg",
+      "price": 799.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "29.9 x 36 x 46.6 inches",
+          "weight": "180 lbs",
+          "oven_capacity": "5.8 cu. ft.",
+          "cooktop_burners": "5 burners including 18K BTU dual burner",
+          "oven_type": "True convection",
+          "fuel_type": "Gas",
+          "ignition": "Electronic ignition",
+          "features": [
+              "True convection oven",
+              "Blue LED illuminated knobs",
+              "Continuous cast iron grates",
+              "Storage drawer",
+              "Self-cleaning oven"
+          ]
+      }
+  },
+  {
+      "id": "76",
+      "name": "Samsung AR18CVFAMWK 1.5 Ton Wind-Free™ Air Conditioner",
+      "description": "1.5 ton capacity with Wind-Free™ cooling, AI Auto Cooling, and R32 refrigerant for energy efficiency.",
+      "image": "./assets/samsung-ac-05.jpg",
+      "price": 999.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "37.4 x 12.6 x 23.6 inches (outdoor unit)",
+          "weight": "110 lbs (total)",
+          "capacity": "1.5 Ton (18,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "5100W",
+          "air_flow": "550 CFM",
+          "refrigerant": "R32",
+          "noise_level": "Indoor: 19-43 dB, Outdoor: 48 dB",
+          "features": [
+              "Wind-Free™ cooling",
+              "AI Auto Cooling",
+              "Fast Cool function",
+              "Auto Clean",
+              "SmartThings app connectivity"
+          ]
+      }
+  },
+  {
+      "id": "90",
+      "name": "Samsung WW10T684DLN 10kg AI Washing Machine",
+      "description": "10kg capacity with AI Control, BubbleStorm technology for deep cleaning, and Super Speed wash cycle.",
+      "image": "./assets/samsung-washing-machine-01.jpg",
+      "price": 899.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "27.6 x 29.9 x 41.3 inches",
+          "weight": "194 lbs",
+          "capacity": "10 kg",
+          "wash_cycles": "23 cycles including Super Speed, Steam Sanitize",
+          "motor": "Digital Inverter Motor",
+          "spin_speed": "Up to 1400 RPM",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "AI Control technology",
+              "BubbleStorm technology",
+              "Super Speed wash (39 minutes)",
+              "Steam Sanitize cycle",
+              "SmartThings app connectivity"
+          ]
+      }
+  },
+  {
+      "id": "91",
+      "name": "Samsung AR24CVFAMWK 2 Ton Wind-Free™ Air Conditioner",
+      "description": "2 ton capacity with Wind-Free™ technology, AI Auto Cooling, and energy efficiency with Digital Inverter technology.",
+      "image": "./assets/samsung-ac-08.jpg",
+      "price": 1299.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "40.2 x 13.4 x 26 inches (outdoor unit)",
+          "weight": "130 lbs (total)",
+          "capacity": "2 Ton (24,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "6800W",
+          "air_flow": "650 CFM",
+          "refrigerant": "R32",
+          "noise_level": "Indoor: 19-46 dB, Outdoor: 52 dB",
+          "features": [
+              "Wind-Free™ cooling",
+              "AI Auto Cooling",
+              "Digital Inverter technology",
+              "Fast Cool function",
+              "SmartThings app connectivity"
+          ]
+      }
+  },
+  {
+      "id": "242",
+      "name": "Bosch 300 Series 24\" Dishwasher",
+      "description": "300 Series dishwasher with RackMatic adjustable upper rack, 3rd rack, and quiet 44 dBA operation for versatile loading options.",
+      "image": "./assets/bosch-dishwasher-02.jpg",
+      "price": 799.99,
+      "brand": "Bosch",
+      "link": "./BOSCH-productpage.html",
+      "specs": {
+          "dimensions": "23.6 x 23.6 x 33.9 inches",
+          "weight": "84 lbs",
+          "capacity": "15 place settings",
+          "wash_cycles": "6 cycles including Auto, Heavy, Delicate",
+          "noise_level": "44 dBA",
+          "energy_efficiency": "ENERGY STAR certified",
+          "water_usage": "3.8 gallons per cycle",
+          "features": [
+              "RackMatic adjustable upper rack",
+              "3rd rack for utensils",
+              "Sanitize option",
+              "Delay start up to 24 hours",
+              "Stainless steel interior"
+          ]
+      }
+  },
+  {
+      "id": "107",
+      "name": "BOSCH B36CL80ENS 36\" Refrigerator",
+      "description": "20.5 cu. ft. capacity with black stainless steel finish and VitaFresh Pro system",
+      "image": "./assets/bosch-refrigerator-02.jpg",
+      "price": 4199.0,
+      "brand": "Bosch",
+      "link": "./BOSCH-productpage.html",
+      "specs": {
+          "dimensions": "35.6 x 69.2 x 32.3 inches",
+          "weight": "335 lbs",
+          "capacity": "20.5 cu. ft.",
+          "configuration": "French door refrigerator with bottom freezer",
+          "cooling_system": "MultiAirFlow system",
+          "freezer": "Dual drawers with separate temperature controls",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Black stainless steel finish",
+              "VitaFresh Pro drawers",
+              "LED lighting throughout",
+              "Ice maker",
+              "Home Connect compatible"
+          ]
+      }
+  },
+  {
+      "id": "249",
+      "name": "Bosch 800 Series 30\" Gas Range",
+      "description": "30-inch gas range with 5 burners including PowerBurner, FlexInduction cooktop, and convection oven for ultimate cooking flexibility.",
+      "image": "./assets/bosch-range-01.jpg",
+      "price": 2199.99,
+      "brand": "Bosch",
+      "link": "./BOSCH-productpage.html",
+      "specs": {
+          "dimensions": "31.3 x 36.5 x 47.3 inches",
+          "weight": "220 lbs",
+          "oven_capacity": "4.8 cu. ft.",
+          "cooktop_burners": "5 burners including 18,000 BTU PowerBurner",
+          "cooktop_type": "Gas with electric griddle",
+          "oven_type": "European convection",
+          "fuel_type": "Gas",
+          "features": [
+              "PowerBurner with 18,000 BTU",
+              "FlexInduction cooktop",
+              "European convection oven",
+              "Telescopic rack",
+              "Self-cleaning oven"
+          ]
+      }
+  },
+  {
+      "id": "257",
+      "name": "Bosch 300 Series 2.2 cu. ft. Front Load Washer",
+      "description": "2.2 cu. ft. front load washer with VarioDrum technology, 16 wash programs, and ultra-quiet operation with ActiveWater Plus.",
+      "image": "./assets/bosch-washer-01.jpg",
+      "price": 999.99,
+      "brand": "Bosch",
+      "link": "./BOSCH-productpage.html",
+      "specs": {
+          "dimensions": "23.6 x 24.2 x 33.3 inches",
+          "weight": "160 lbs",
+          "capacity": "2.2 cu. ft.",
+          "wash_cycles": "16 programs including AllergyPlus, SuperQuick",
+          "motor": "EcoSilence Drive motor",
+          "spin_speed": "Up to 1400 RPM",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "VarioDrum technology",
+              "ActiveWater Plus",
+              "AllergyPlus program",
+              "SuperQuick 15-minute cycle",
+              "Home Connect app"
+          ]
+      }
+  },
+  {
+      "id": "259",
+      "name": "Bosch 800 Series 2.2 cu. ft. Front Load Washer",
+      "description": "Premium front load washer with i-DOS automatic detergent dispensing, SpeedPerfect technology, and Home Connect smart features.",
+      "image": "./assets/bosch-washer-02.jpg",
+      "price": 1499.99,
+      "brand": "Bosch",
+      "link": "./BOSCH-productpage.html",
+      "specs": {
+          "dimensions": "23.6 x 24.2 x 33.3 inches",
+          "weight": "165 lbs",
+          "capacity": "2.2 cu. ft.",
+          "wash_cycles": "16 programs including SpeedPerfect, Stain removal",
+          "motor": "EcoSilence Drive motor",
+          "spin_speed": "Up to 1400 RPM",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "i-DOS automatic detergent dispensing",
+              "SpeedPerfect technology",
+              "Home Connect smart features",
+              "AntiVibration design",
+              "LED display with touch controls"
+          ]
+      }
+  },
+  {
+      "id": "118",
+      "name": "Electrolux EI23BC82SS 36\" Refrigerator",
+      "description": "22.3 cu. ft. capacity with IQ-Touch controls and self-closing doors",
+      "image": "./assets/electrolux-refrigerator-01.jpg",
+      "price": 2799.0,
+      "brand": "Electrolux",
+      "link": "./Electrolux-productpage.html",
+      "specs": {
+          "dimensions": "35.6 x 69.9 x 32.6 inches",
+          "weight": "310 lbs",
+          "capacity": "22.3 cu. ft.",
+          "configuration": "French door refrigerator with bottom freezer",
+          "cooling_system": "Perfect Temp drawer",
+          "ice_maker": "Ice maker",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "IQ-Touch controls",
+              "Self-closing doors",
+              "Perfect Temp drawer",
+              "Luxury-Design lighting",
+              "Adjustable glass shelves"
+          ]
+      }
+  },
+  {
+      "id": "119",
+      "name": "Electrolux EI27BS81SS 36\" Refrigerator",
+      "description": "27.3 cu. ft. capacity with water dispenser and dual cooling system",
+      "image": "./assets/electrolux-refrigerator-02.jpg",
+      "price": 2499.0,
+      "brand": "Electrolux",
+      "link": "./Electrolux-productpage.html",
+      "specs": {
+          "dimensions": "35.6 x 69.9 x 35.8 inches",
+          "weight": "330 lbs",
+          "capacity": "27.3 cu. ft.",
+          "configuration": "Side-by-side refrigerator",
+          "cooling_system": "Dual cooling system",
+          "ice_maker": "External water and ice dispenser",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "External water dispenser",
+              "Dual cooling system",
+              "IQ-Touch controls",
+              "Luxury-Design lighting",
+              "Adjustable door bins"
+          ]
+      }
+  },
+  {
+      "id": "278",
+      "name": "Electrolux 5.0 cu. ft. Top Load Washer",
+      "description": "5.0 cu. ft. top load washer with Quick Wash cycle, Perfect Steam option, and automatic detergent dispenser for convenient laundry care.",
+      "image": "./assets/electrolux-washer-02.jpg",
+      "price": 849.99,
+      "brand": "Electrolux",
+      "link": "./Electrolux-productpage.html",
+      "specs": {
+          "dimensions": "27.9 x 27.9 x 42 inches",
+          "weight": "145 lbs",
+          "capacity": "5.0 cu. ft.",
+          "wash_cycles": "14 cycles including Quick Wash, Perfect Steam",
+          "motor": "Direct drive motor",
+          "spin_speed": "Up to 1100 RPM",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Quick Wash cycle",
+              "Perfect Steam technology",
+              "Automatic detergent dispenser",
+              "SmartBoost technology",
+              "Delay start up to 18 hours"
+          ]
+      }
+  },
+  {
+      "id": "279",
+      "name": "Electrolux 7.4 cu. ft. Electric Dryer",
+      "description": "7.4 cu. ft. electric dryer with Perfect Steam technology to reduce wrinkles and odors, plus SensorDry system for precise drying results.",
+      "image": "./assets/electrolux-dryer-01.jpg",
+      "price": 899.99,
+      "brand": "Electrolux",
+      "link": "./Electrolux-productpage.html",
+      "specs": {
+          "dimensions": "27 x 31.5 x 42 inches",
+          "weight": "125 lbs",
+          "capacity": "7.4 cu. ft.",
+          "drying_cycles": "12 cycles including Perfect Steam, Quick Dry",
+          "heat_settings": "5 temperature settings",
+          "drum_material": "Stainless steel",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Perfect Steam technology",
+              "SensorDry system",
+              "Luxury-Quiet sound package",
+              "Reversible door",
+              "Delay start up to 18 hours"
+          ]
+      }
+  },
+  {
+      "id": "282",
+      "name": "Electrolux 24\" Built-in Dishwasher",
+      "description": "24-inch built-in dishwasher with LuxCare Wash System, 3rd rack for utensils, and ultra-quiet 44 dBA operation for perfect cleaning performance.",
+      "image": "./assets/electrolux-dishwasher-01.jpg",
+      "price": 799.99,
+      "brand": "Electrolux",
+      "link": "./Electrolux-productpage.html",
+      "specs": {
+          "dimensions": "23.8 x 24.6 x 33.8 inches",
+          "weight": "95 lbs",
+          "capacity": "15 place settings",
+          "wash_cycles": "8 cycles including Heavy, Normal, Quick Wash",
+          "noise_level": "44 dBA",
+          "energy_efficiency": "ENERGY STAR certified",
+          "water_usage": "3.7 gallons per cycle",
+          "features": [
+              "LuxCare Wash System",
+              "3rd rack for utensils",
+              "Satellite spray arms",
+              "Delay start up to 24 hours",
+              "Stainless steel interior"
+          ]
+      }
+  },
+  {
+      "id": "287",
+      "name": "Electrolux 30\" Freestanding Electric Range",
+      "description": "30-inch freestanding electric range with True Convection oven, 5 heating elements, and self-cleaning technology for versatile cooking.",
+      "image": "./assets/electrolux-range-01.jpg",
+      "price": 1299.99,
+      "brand": "Electrolux",
+      "link": "./Electrolux-productpage.html",
+      "specs": {
+          "dimensions": "29.9 x 36 x 47.8 inches",
+          "weight": "170 lbs",
+          "oven_capacity": "5.7 cu. ft.",
+          "cooktop_elements": "5 radiant elements including 3200W element",
+          "oven_type": "True convection",
+          "fuel_type": "Electric",
+          "cleaning": "Self-cleaning",
+          "features": [
+              "True convection oven",
+              "5 radiant elements",
+              "Perfect Taste Temp Probe",
+              "Luxury-Design lighting",
+              "Storage drawer"
+          ]
+      }
+  },
+  {
+      "id": "21",
+      "name": "Haier 520L Black Glass 4-Door Refrigerator",
+      "description": "Premium 4-door refrigerator with black glass finish and advanced cooling technology.",
+      "image": "./assets/haier-refrigerator-01.jpg",
+      "price": 1100.0,
+      "brand": "Haier",
+      "link": "./Haier-productpage.html",
+      "specs": {
+          "dimensions": "29.5 x 70.9 x 32.3 inches",
+          "weight": "220 lbs",
+          "capacity": "520 liters (18.4 cu. ft.)",
+          "configuration": "4-door French door",
+          "cooling_system": "Multi-airflow cooling",
+          "ice_maker": "Automatic ice maker",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Black glass finish",
+              "Lumiere technology",
+              "Humidity control",
+              "LED lighting",
+              "Adjustable shelves"
+          ]
+      }
+  },
+  {
+      "id": "22",
+      "name": "Haier 340L French Door Refrigerator",
+      "description": "Energy-efficient French door refrigerator with inverter compressor and spacious storage.",
+      "image": "./assets/haier-refrigerator-02.jpg",
+      "price": 950.0,
+      "brand": "Haier",
+      "link": "./Haier-productpage.html",
+      "specs": {
+          "dimensions": "29.5 x 66.9 x 29.5 inches",
+          "weight": "165 lbs",
+          "capacity": "340 liters (12 cu. ft.)",
+          "configuration": "French door refrigerator",
+          "cooling_system": "Inverter compressor",
+          "ice_maker": "Ice maker",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Inverter technology",
+              "Multi-airflow cooling",
+              "Humidity control",
+              "LED lighting",
+              "Adjustable door bins"
+          ]
+      }
+  },
+  {
+      "id": "219",
+      "name": "Haier 1.5 Ton 5 Star Inverter Split AC",
+      "description": "1.5 Ton 5-star rated inverter split AC with anti-bacterial filter, self-diagnosis function, and energy-saving technology.",
+      "image": "assets/haier-ac-split-01.jpg",
+      "price": 629.99,
+      "brand": "Haier",
+      "link": "./Haier-productpage.html",
+      "specs": {
+          "dimensions": "33.5 x 9.8 x 21.3 inches (outdoor unit)",
+          "weight": "95 lbs (total)",
+          "capacity": "1.5 Ton (18,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "5100W",
+          "power_consumption": "1.05 kW",
+          "air_flow": "500 CFM",
+          "noise_level": "Indoor: 28-45 dB, Outdoor: 55 dB",
+          "features": [
+              "Inverter technology",
+              "Anti-bacterial filter",
+              "Self-diagnosis function",
+              "Turbo cooling",
+              "Sleep mode"
+          ]
+      }
+  },
+  {
+      "id": "34",
+      "name": "LG 24 cu. ft. French Door Refrigerator",
+      "description": "24 cu. ft. French door refrigerator with PrintProof finish, Ice Maker, and Linear Cooling technology.",
+      "image": "assets/lg-refrigerator-02.jpg",
+      "price": 1899.99,
+      "brand": "LG",
+      "link": "./LG-productpage.html",
+      "specs": {
+          "dimensions": "32.8 x 69.9 x 32.8 inches",
+          "weight": "260 lbs",
+          "capacity": "24 cu. ft.",
+          "configuration": "French door refrigerator with bottom freezer",
+          "cooling_system": "Linear Cooling technology",
+          "ice_maker": "Ice maker",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "PrintProof finish",
+              "Linear Cooling",
+              "SmartDiagnosis",
+              "LED lighting",
+              "Adjustable shelves"
+          ]
+      }
+  },
+  {
+      "id": "163",
+      "name": "LG 5.0 cu. ft. Top Load Washer",
+      "description": "5.0 cu. ft. top load washer with TurboWash technology, 6Motion technology, and SmartThinQ app.",
+      "image": "assets/lg-washer-02.jpg",
+      "price": 849.99,
+      "brand": "LG",
+      "link": "./LG-productpage.html",
+      "specs": {
+          "dimensions": "27.8 x 27.8 x 44.5 inches",
+          "weight": "140 lbs",
+          "capacity": "5.0 cu. ft.",
+          "wash_cycles": "12 cycles including TurboWash, Allergiene",
+          "motor": "Direct drive motor",
+          "spin_speed": "Up to 800 RPM",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "TurboWash technology",
+              "6Motion technology",
+              "SmartThinQ app",
+              "Allergiene cycle",
+              "Delay wash up to 19 hours"
+          ]
+      }
+  },
+  {
+      "id": "165",
+      "name": "LG 7.4 cu. ft. Electric Dryer",
+      "description": "7.4 cu. ft. capacity electric dryer with Sensor Dry technology, SteamFresh cycle, and Wi-Fi connectivity.",
+      "image": "assets/lg-dryer-01.jpg",
+      "price": 899.99,
+      "brand": "LG",
+      "link": "./LG-productpage.html",
+      "specs": {
+          "dimensions": "27 x 30.1 x 44.3 inches",
+          "weight": "125 lbs",
+          "capacity": "7.4 cu. ft.",
+          "drying_cycles": "14 cycles including SteamFresh, Speed Dry",
+          "heat_settings": "5 temperature settings",
+          "drum_material": "Aluminum",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Sensor Dry technology",
+              "SteamFresh cycle",
+              "SmartThinQ Wi-Fi",
+              "Wrinkle care",
+              "Delay start up to 19 hours"
+          ]
+      }
+  },
+  {
+      "id": "170",
+      "name": "LG 1.5 Ton Dual Inverter Split AC",
+      "description": "1.5 Ton 5-star rated split AC with Dual Inverter technology, AI Plus Convertible cooling, and quiet operation.",
+      "image": "assets/lg-ac-split-01.jpg",
+      "price": 799.99,
+      "brand": "LG",
+      "link": "./LG-productpage.html",
+      "specs": {
+          "dimensions": "37 x 10.9 x 23.6 inches (outdoor unit)",
+          "weight": "105 lbs (total)",
+          "capacity": "1.5 Ton (18,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "5100W",
+          "power_consumption": "0.95 kW",
+          "air_flow": "550 CFM",
+          "noise_level": "Indoor: 19-41 dB, Outdoor: 48 dB",
+          "features": [
+              "Dual Inverter technology",
+              "AI Plus Convertible cooling",
+              "Ocean Black Fin protection",
+              "4-way swing",
+              "Smart diagnosis"
+          ]
+      }
+  },
+  {
+      "id": "179",
+      "name": "LG QNED90 65-inch 4K Smart TV",
+      "description": "65-inch QNED TV with Quantum Dot NanoCell technology, Full Array Dimming Pro, and webOS smart platform.",
+      "image": "assets/lg-tv-qnhd.jpg",
+      "price": 1599.99,
+      "brand": "LG",
+      "link": "./LG-productpage.html",
+      "specs": {
+          "dimensions": "57.1 x 32.8 x 2.4 inches",
+          "weight": "55.1 lbs",
+          "display_size": "65 inches",
+          "resolution": "4K Ultra HD (3840 x 2160)",
+          "panel_type": "QNED",
+          "refresh_rate": "120Hz",
+          "hdr_support": "Dolby Vision IQ, HDR10 Pro, HLG",
+          "smart_platform": "webOS 23",
+          "features": [
+              "Quantum Dot NanoCell",
+              "Full Array Dimming Pro",
+              "α9 AI Processor Gen6",
+              "Dolby Atmos",
+              "Magic Remote"
+          ]
+      }
+  },
+  {
+      "id": "150",
+      "name": "Sony Alpha 1 II Full-Frame Mirrorless Camera",
+      "description": "Second-generation flagship with 50.1MP sensor and 120fps continuous shooting",
+      "image": "./assets/sony-camera-01.jpg",
+      "price": 6499.0,
+      "brand": "Sony",
+      "link": "./Sony-productpage.html",
+      "specs": {
+          "dimensions": "5.1 x 3.8 x 3.1 inches",
+          "weight": "1.5 lbs (body only)",
+          "sensor_size": "Full-frame (35.9 x 24mm)",
+          "sensor_resolution": "50.1 megapixels",
+          "iso_range": "100-102400 (expandable to 50-204800)",
+          "continuous_shooting": "120 fps with electronic shutter",
+          "video_resolution": "8K",
+          "autofocus_points": "759 phase-detection points",
+          "features": [
+              "50.1MP full-frame sensor",
+              "120fps continuous shooting",
+              "8K video recording",
+              "5-axis image stabilization",
+              "Dual card slots"
+          ]
+      }
+  },
+  {
+      "id": "151",
+      "name": "Sony Alpha 7C II Full-Frame Mirrorless Camera",
+      "description": "Compact full-frame camera with 33.0MP sensor and AI-based subject recognition",
+      "image": "./assets/sony-camera-02.jpg",
+      "price": 1999.0,
+      "brand": "Sony",
+      "link": "./Sony-productpage.html",
+      "specs": {
+          "dimensions": "4.9 x 2.8 x 2.3 inches",
+          "weight": "1.1 lbs (body only)",
+          "sensor_size": "Full-frame (35.9 x 24mm)",
+          "sensor_resolution": "33.0 megapixels",
+          "iso_range": "100-51200 (expandable to 50-204800)",
+          "continuous_shooting": "10 fps",
+          "video_resolution": "4K",
+          "autofocus_points": "759 phase-detection points",
+          "features": [
+              "33.0MP full-frame sensor",
+              "AI-based subject recognition",
+              "4K video recording",
+              "5-axis stabilization",
+              "Compact design"
+          ]
+      }
+  },
+  {
+      "id": "302",
+      "name": "Whirlpool 25 cu. ft. French Door Refrigerator",
+      "description": "25 cu. ft. capacity with external water and ice dispenser, adaptive defrost system, and fingerprint-resistant stainless steel finish.",
+      "image": "assets/whirlpool-refrigerator-01.jpg",
+      "price": 1799.99,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "35.6 x 69.9 x 32.6 inches",
+          "weight": "275 lbs",
+          "capacity": "25 cu. ft.",
+          "configuration": "French door refrigerator with bottom freezer",
+          "cooling_system": "Adaptive defrost",
+          "ice_maker": "External water and ice dispenser",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "External dispenser",
+              "Adaptive defrost",
+              "Fingerprint-resistant finish",
+              "Humidity-controlled crispers",
+              "LED interior lighting"
+          ]
+      }
+  },
+  {
+      "id": "307",
+      "name": "Whirlpool 4.5 cu. ft. Front Load Washer",
+      "description": "4.5 cu. ft. capacity with Load & Go XL dispenser that holds enough detergent for 20+ loads, plus steam clean option and energy-efficient operation.",
+      "image": "assets/whirlpool-washer-01.jpg",
+      "price": 999.99,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "27.5 x 33.3 x 38.8 inches",
+          "weight": "220 lbs",
+          "capacity": "4.5 cu. ft.",
+          "wash_cycles": "37 cycles including Steam Clean, Quick Wash",
+          "motor": "Direct drive motor",
+          "spin_speed": "Up to 1200 RPM",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Load & Go XL dispenser",
+              "Steam clean option",
+              "Fresh Hold option",
+              "Delay start up to 12 hours",
+              "Smart appliance"
+          ]
+      }
+  },
+  {
+      "id": "312",
+      "name": "Whirlpool 7.4 cu. ft. Electric Dryer",
+      "description": "7.4 cu. ft. electric dryer with Steam Refresh cycle, wrinkle shield option, and 10 drying options for versatile drying.",
+      "image": "assets/whirlpool-dryer-01.jpg",
+      "price": 899.99,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "27 x 31 x 42.8 inches",
+          "weight": "125 lbs",
+          "capacity": "7.4 cu. ft.",
+          "drying_cycles": "36 cycles including Steam Refresh, Quick Dry",
+          "heat_settings": "4 temperature settings",
+          "drum_material": "Powder-coated steel",
+          "energy_efficiency": "ENERGY STAR certified",
+          "features": [
+              "Steam Refresh cycle",
+              "Wrinkle shield option",
+              "Quad baffles",
+              "Delay start up to 12 hours",
+              "Smart appliance"
+          ]
+      }
+  },
+  {
+      "id": "317",
+      "name": "Whirlpool 24\" Built-in Dishwasher",
+      "description": "24-inch built-in dishwasher with Fan Dry option for better drying performance, 1-hour wash cycle, and quiet 52 dBA operation with adjustable racks.",
+      "image": "assets/whirlpool-dishwasher-01.jpg",
+      "price": 599.99,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "23.9 x 24.5 x 33.5 inches",
+          "weight": "65 lbs",
+          "capacity": "15 place settings",
+          "wash_cycles": "5 cycles including 1-Hour Wash, Heavy",
+          "noise_level": "52 dBA",
+          "energy_efficiency": "ENERGY STAR certified",
+          "water_usage": "3.1 gallons per cycle",
+          "features": [
+              "Fan Dry option",
+              "1-hour wash cycle",
+              "Adjustable upper rack",
+              "Heated dry option",
+              "Delay start up to 24 hours"
+          ]
+      }
+  },
+  {
+      "id": "322",
+      "name": "Whirlpool 30\" Freestanding Electric Range",
+      "description": "30-inch freestanding electric range with 5 heating elements including warming zone, convection oven, and ceramic glass cooktop for versatile cooking options.",
+      "image": "assets/whirlpool-range-01.jpg",
+      "price": 899.99,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "29.9 x 35.8 x 46.9 inches",
+          "weight": "150 lbs",
+          "oven_capacity": "5.3 cu. ft.",
+          "cooktop_elements": "5 coil elements including 2600W element",
+          "oven_type": "Convection",
+          "fuel_type": "Electric",
+          "cleaning": "Self-cleaning",
+          "features": [
+              "Convection oven",
+              "5 coil elements",
+              "Warming zone",
+              "Storage drawer",
+              "Digital display"
+          ]
+      }
+  },
+  {
+      "id": "328",
+      "name": "Whirlpool 1.2 Ton Window Air Conditioner",
+      "description": "1.2 Ton window air conditioner with 3-star energy rating, auto restart function, 4-way air deflection, and easy installation for residential cooling needs in moderate climates.",
+      "image": "assets/whirlpool-ac-window-01.jpg",
+      "price": 449.99,
+      "brand": "Whirlpool",
+      "link": "./Whirlpool-productpage.html",
+      "specs": {
+          "dimensions": "18.5 x 23.6 x 15.4 inches",
+          "weight": "55 lbs",
+          "capacity": "1.2 Ton (14,000 BTU)",
+          "energy_rating": "3-star rated",
+          "cooling_capacity": "4100W",
+          "power_consumption": "1.25 kW",
+          "air_flow": "300 CFM",
+          "noise_level": "55 dB",
+          "features": [
+              "3-star energy rating",
+              "Auto restart function",
+              "4-way air deflection",
+              "Sleep mode",
+              "Remote control"
+          ]
+      }
+  },
+  {
+      "id": "9",
+      "name": "Samsung RT6300C Top Mount Freezer Refrigerator",
+      "description": "411L top mount freezer refrigerator with Optimal Fresh+ technology.",
+      "image": "./assets/samsung-refrigerator-01.jpg",
+      "price": 1099.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "26.5 x 66.9 x 29.5 inches",
+          "weight": "165 lbs",
+          "capacity": "411 liters (14.5 cu. ft.)",
+          "configuration": "Top mount freezer",
+          "cooling_system": "Optimal Fresh+ technology",
+          "defrost_type": "Direct cool",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Optimal Fresh+ technology",
+              "Large vegetable crisper",
+              "Antibacterial gasket",
+              "Stabilizer free operation",
+              "Toughened glass shelves"
+          ]
+      }
+  },
+  {
+      "id": "10",
+      "name": "Samsung RS50N3913BC/EU Side-by-Side Refrigerator",
+      "description": "Home Bar access and All-around Cooling technology.",
+      "image": "./assets/samsung-refrigerator-02.jpg",
+      "price": 1099.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "35.8 x 70 x 32.8 inches",
+          "weight": "280 lbs",
+          "capacity": "501 liters (17.7 cu. ft.)",
+          "configuration": "Side-by-side",
+          "cooling_system": "All-around Cooling",
+          "ice_maker": "Home Bar with ice maker",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Home Bar access",
+              "All-around Cooling",
+              "Power Cool function",
+              "LED lighting",
+              "Adjustable shelves"
+          ]
+      }
+  },
+  {
+      "id": "17",
+      "name": "Samsung WA80CK4240BWRT Top Load Washing Machine",
+      "description": "8 kg top-load washing machine with Digital Inverter Technology and Eco Bubble™.",
+      "image": "./assets/samsung-washing-machine-01.jpg",
+      "price": 389.17,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "21.7 x 21.7 x 37.4 inches",
+          "weight": "65 lbs",
+          "capacity": "8 kg",
+          "wash_cycles": "10 programs including Cotton, Delicate, Quick Wash",
+          "motor": "Digital Inverter Motor",
+          "spin_speed": "Up to 700 RPM",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Digital Inverter Technology",
+              "Eco Bubble™ technology",
+              "Smart Check",
+              "Child lock",
+              "Delay end"
+          ]
+      }
+  },
+  {
+      "id": "18",
+      "name": "Samsung WW70T4020EE Front Load Washing Machine",
+      "description": "7 Kg washing machine with Eco Bubble and Hygiene Steam.",
+      "image": "./assets/samsung-laundry-01.jpg",
+      "price": 689.9,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "27.6 x 29.9 x 41.3 inches",
+          "weight": "187 lbs",
+          "capacity": "7 kg",
+          "wash_cycles": "14 programs including Hygiene Steam, Quick Wash",
+          "motor": "Digital Inverter Motor",
+          "spin_speed": "Up to 1200 RPM",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Eco Bubble technology",
+              "Hygiene Steam function",
+              "SmartThings app connectivity",
+              "AddWash door",
+              "Child lock"
+          ]
+      }
+  },
+  {
+      "id": "19",
+      "name": "Samsung WD70TA046BX Washer Dryer Combo",
+      "description": "7+5 Kg washer-dryer with Eco Bubble™ and AirWash technology.",
+      "image": "./assets/samsung-laundry-02.jpg",
+      "price": 1171.06,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "27.6 x 29.9 x 41.3 inches",
+          "weight": "194 lbs",
+          "wash_capacity": "7 kg",
+          "dry_capacity": "5 kg",
+          "wash_cycles": "16 programs including Steam, Quick Wash",
+          "motor": "Digital Inverter Motor",
+          "spin_speed": "Up to 1200 RPM",
+          "energy_efficiency": "5-star rated",
+          "features": [
+              "Eco Bubble™ technology",
+              "AirWash technology",
+              "SmartThings app",
+              "AddWash door",
+              "Hygiene Steam"
+          ]
+      }
+  },
+  {
+      "id": "13",
+      "name": "Samsung AR9500T Wall-mount Air Conditioner",
+      "description": "Wall-mount air conditioner with Fast Cooling technology.",
+      "image": "./assets/samsung-AC-01.jpg",
+      "price": 869.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "37.4 x 12.6 x 23.6 inches (outdoor unit)",
+          "weight": "110 lbs (total)",
+          "capacity": "1.5 Ton (18,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "5100W",
+          "power_consumption": "0.95 kW",
+          "air_flow": "550 CFM",
+          "noise_level": "Indoor: 19-43 dB, Outdoor: 48 dB",
+          "features": [
+              "Fast Cooling technology",
+              "Digital Inverter technology",
+              "Auto Clean",
+              "Sleep mode",
+              "SmartThings app connectivity"
+          ]
+      }
+  },
+  {
+      "id": "14",
+      "name": "Samsung AR18CVFAMWK Wall-mount Air Conditioner",
+      "description": "Wall-mount AC with Digital Inverter Technology, Wind-Free™ Cooling, and T3 Climate Class.",
+      "image": "./assets/samsung-AC-02.jpg",
+      "price": 819.99,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "37.4 x 12.6 x 23.6 inches (outdoor unit)",
+          "weight": "110 lbs (total)",
+          "capacity": "1.5 Ton (18,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "5100W",
+          "power_consumption": "0.95 kW",
+          "air_flow": "550 CFM",
+          "noise_level": "Indoor: 19-43 dB, Outdoor: 48 dB",
+          "features": [
+              "Digital Inverter Technology",
+              "Wind-Free™ Cooling",
+              "T3 Climate Class",
+              "Auto Clean",
+              "SmartThings app"
+          ]
+      }
+  },
+  {
+      "id": "15",
+      "name": "Samsung AR24CVFAMWK Wall-mount Air Conditioner",
+      "description": "2-ton inverter AC with Digital Inverter Technology for efficient cooling in high-temperature climates up to 45m².",
+      "image": "./assets/samsung-AC-03.jpg",
+      "price": 1238.28,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "40.2 x 13.4 x 26 inches (outdoor unit)",
+          "weight": "130 lbs (total)",
+          "capacity": "2 Ton (24,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "6800W",
+          "power_consumption": "1.35 kW",
+          "air_flow": "650 CFM",
+          "noise_level": "Indoor: 19-46 dB, Outdoor: 52 dB",
+          "features": [
+              "Digital Inverter Technology",
+              "Wind-Free™ Cooling",
+              "T3 Climate Class",
+              "Fast Cool function",
+              "SmartThings connectivity"
+          ]
+      }
+  },
+  {
+      "id": "16",
+      "name": "Samsung AR12TYHYAWK Wall-mount Air Conditioner",
+      "description": "12,000 BTU wall-mount AC with Digital Inverter Technology and T3 Climate Class for high-temperature environments.",
+      "image": "./assets/samsung-AC-04.jpg",
+      "price": 601.45,
+      "brand": "Samsung",
+      "link": "./samsung-productpage.html",
+      "specs": {
+          "dimensions": "33.5 x 9.8 x 21.3 inches (outdoor unit)",
+          "weight": "95 lbs (total)",
+          "capacity": "1 Ton (12,000 BTU)",
+          "energy_rating": "5-star rated",
+          "cooling_capacity": "3400W",
+          "power_consumption": "0.75 kW",
+          "air_flow": "400 CFM",
+          "noise_level": "Indoor: 19-40 dB, Outdoor: 45 dB",
+          "features": [
+              "Digital Inverter Technology",
+              "T3 Climate Class",
+              "Auto Clean",
+              "Sleep mode",
+              "SmartThings app"
+          ]
+      }
+  }
+]
